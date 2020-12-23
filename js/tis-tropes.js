@@ -38,9 +38,6 @@ tis.tropes = {
 	set: function(d) {
 		tis.log(["d", d]);
 		$("#tis_trope").val(d.Name);
-		
-		//Stats
-		//$("#tis_species_description").html(d.Description);
-		//$("#tis_species_drawback").val(d.Drawback);
+		tis.stats.set(d.Stats);
 	}
 };

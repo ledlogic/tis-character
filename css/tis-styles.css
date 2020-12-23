@@ -66,3 +66,38 @@ span {
 	top: 256px;
 	width: 292px;
 }
+.tis-stat {
+	/* border: 1px solid #ccc; */
+	border: 1px solid transparent;
+	font-size: 24px;
+	font-weight: 600;
+	height: 24px;
+	padding: 0px 4px;
+	position: absolute;
+	text-align: left;
+	width: 28px;
+}
+#tis_fight {
+	left: 506px;
+	top: 136px;
+}
+#tis_brains {
+	left: 506px;
+	top: 210px;
+}
+#tis_charm {
+	left: 506px;
+	top: 282px;
+}
+#tis_flight {
+	left: 628px;
+	top: 100px;
+}
+#tis_brawn {
+	left: 628px;
+	top: 174px;
+}
+#tis_grit {
+	left: 628px;
+	top: 246px;
+}
