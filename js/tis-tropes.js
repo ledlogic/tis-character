@@ -1,14 +1,14 @@
-/* TIS Species */
+/* TIS Tropes */
 
-tis.species = {
+tis.tropes = {
 	list:[],
 	init: function() {
-		tis.log("tis.species.init");
-		tis.species.request();
+		tis.log("tis.tropes.init");
+		tis.tropes.request();
 	},
 	request: function() {
-		tis.log("tis.species.request");
-		var csv = "data/tis-species.csv";
+		tis.log("tis.tropes.request");
+		var csv = "data/tis-tropes.csv";
 		tis.log("loading data from csv[" + csv + "]");
 		
 		Papa.parse(csv, {
@@ -16,15 +16,15 @@ tis.species = {
 			download: true,
 			header: true,
 			complete: function(d) {
-				tis.species.response(d);
+				tis.tropes.response(d);
 			},
 			encoding: "UTF-8"
 		});
 	},
 	response: function(d, n) {
-		tis.log("tis.species.response");
+		tis.log("tis.tropes.response");
 		var data = d.data;
-		var list = tis.species.list;
+		var list = tis.tropes.list;
 		for (var i=0; i<data.length; i++) {
 			var datum = data[i];
 			//tis.log(["datum", datum]);
@@ -32,13 +32,15 @@ tis.species = {
 		}	
 		//tis.log(["list", list]);
 		var index = tis.math.dieZ(list.length);
-		var species = list[index];
-		tis.species.set(species);
+		var trope = list[index];
+		tis.tropes.set(trope);
 	},
 	set: function(d) {
 		tis.log(["d", d]);
-		$("#tis_species_name").val(d.Name);
-		$("#tis_species_description").html(d.Description);
-		$("#tis_species_drawback").val(d.Drawback);
+		$("#tis_trope").val(d.Name);
+		
+		//Stats
+		//$("#tis_species_description").html(d.Description);
+		//$("#tis_species_drawback").val(d.Drawback);
 	}
 };

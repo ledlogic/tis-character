@@ -1,5 +1,6 @@
 * {
 	color: #163640;
+	/* @see https://fonts.google.com/specimen/Jura */
 	font-family: 'Jura', sans-serif;	
 }
 label {
@@ -13,7 +14,8 @@ span {
 	width: 800px;
 }
 .tis-field {
-	border: 1px solid #ccc;
+	/* border: 1px solid #ccc; */
+	border: 1px solid transparent;
 	font-size: 10px;
 	font-weight: 600;
 	height: 14px;
@@ -22,12 +24,23 @@ span {
 	text-align: center;
 	width: 154px;
 }
+#tis_name {
+	color: #D32226;
+	font-weight: 700;
+	height: 15px;
+	left: 188px;
+	text-transform: uppercase;
+	top: 78px;
+	width: 226px;
+}
 #tis_age {
 	left: 260px;
+	text-transform: uppercase;
 	top: 112px;
 }
 #tis_species_name {
 	left: 260px;
+	text-transform: uppercase;
 	top: 136px;
 }
 #tis_species_drawback {
@@ -36,6 +49,7 @@ span {
 }
 #tis_trope {
 	left: 260px;
+	text-transform: uppercase;
 	top: 184px;
 }
 #tis_fatal_flaw {

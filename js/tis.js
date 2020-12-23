@@ -15,5 +15,6 @@ var tis = {
 		
 		tis.age.init();
 		tis.species.init();
+		tis.tropes.init();
 	}
 };
