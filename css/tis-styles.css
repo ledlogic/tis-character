@@ -1,0 +1,54 @@
+* {
+	color: #163640;
+	font-family: 'Jura', sans-serif;	
+}
+label {
+	font-weight: 600;
+	margin: 0 0.5em;
+}
+span {
+	margin: 0 0.5em;
+}
+.tis-bg {
+	width: 800px;
+}
+.tis-field {
+	border: 1px solid #ccc;
+	font-size: 10px;
+	font-weight: 600;
+	height: 14px;
+	padding: 0px;
+	position: absolute;
+	text-align: center;
+	width: 154px;
+}
+#tis_age {
+	left: 260px;
+	top: 112px;
+}
+#tis_species_name {
+	left: 260px;
+	top: 136px;
+}
+#tis_species_drawback {
+	left: 260px;
+	top: 160px;
+}
+#tis_trope {
+	left: 260px;
+	top: 184px;
+}
+#tis_fatal_flaw {
+	left: 260px;
+	top: 208px;
+}
+#tis_species_description {
+	border: 1px solid transparent;
+	height: 62px;
+	left: 122px;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	top: 256px;
+	width: 292px;
+}
