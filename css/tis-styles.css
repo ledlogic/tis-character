@@ -232,4 +232,61 @@ footer a {
 	left: 492px;
 	top: 713px;
 }
-
+.tis-backpack {
+	/* border: 1px solid orange; */
+	border: 1px solid transparent;
+	font-size: 12px;
+	height: 20px;
+	padding: 0px 4px;
+	position: absolute;
+	text-align: left;
+	width: 222px;
+}
+#tis_backpack_01 {
+	left: 478px;
+	top: 788px;
+}
+#tis_backpack_02 {
+	left: 478px;
+	top: 812px;
+}
+#tis_backpack_03 {
+	left: 478px;
+	top: 836px;
+}
+#tis_backpack_04 {
+	left: 478px;
+	top: 861px;
+}
+#tis_backpack_05 {
+	left: 478px;
+	top: 885px;
+}
+#tis_backpack_06 {
+	left: 478px;
+	top: 909px;
+}
+#tis_backpack_07 {
+	left: 478px;
+	top: 933px;
+}
+#tis_backpack_08 {
+	left: 478px;
+	top: 957px;
+}
+#tis_backpack_09 {
+	left: 478px;
+	top: 981px;
+}
+#tis_backpack_10 {
+	left: 478px;
+	top: 1006px;
+}
+#tis_backpack_11 {
+	left: 478px;
+	top: 1030px;
+}
+#tis_backpack_12 {
+	left: 478px;
+	top: 1054px;
+}
