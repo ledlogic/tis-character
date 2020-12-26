@@ -1,23 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teens in Space</title>
+    <title>Teens in Space - character sheet</title>
 
-    <!-- Favicons -->
+    <!-- styles -->
 	<link rel="icon" href="favicon.ico">
-	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/tis-styles.css" rel="stylesheet">
+    
   </head>
   <body>
   
 	<main class="container">
-		
 		<!--  bg -->
 		<img class="tis-bg" src="img/char.png" />
 		
@@ -45,19 +43,29 @@
 		<input class="tis-stat" id="tis_brawn" />
 		<input class="tis-stat" id="tis_grit" />
 		
+		<!-- right -->
+		<input class="tis-stat" id="tis_improvement_points" />
+		<input class="tis-stat" id="tis_adversity_tokens" />
 	</main>
+	
+	<footer>
+		<a href="https://github.com/ledlogic/tis-character"></a>
+	</footer>
 
+	<!-- javascript -->
 	<script src="js/lib/jquery/jquery-3.5.1.slim.min.js"></script>
 	<script src="js/lib/papaparse/4.1.2/papaparse.min.js"></script>
 	<script src="js/tis.js"></script>
+	<script src="js/tis-adversity.js"></script>
 	<script src="js/tis-age.js"></script>
 	<script src="js/tis-fatalflaws.js"></script>
 	<script src="js/tis-gender.js"></script>
+	<script src="js/tis-improvements.js"></script>
 	<script src="js/tis-math.js"></script>
 	<script src="js/tis-names.js"></script>
 	<script src="js/tis-species.js"></script>
 	<script src="js/tis-stats.js"></script>
 	<script src="js/tis-tropes.js"></script>
 
-</body>
+  </body>
 </html>

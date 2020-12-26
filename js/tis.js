@@ -20,5 +20,7 @@ var tis = {
 		tis.tropes.init();
 		tis.stats.init();
 		tis.fatalflaws.init();
+		tis.improvements.init();
+		tis.adversity.init();
 	}
 };

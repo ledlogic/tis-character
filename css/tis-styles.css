@@ -10,6 +10,15 @@ label {
 span {
 	margin: 0 0.5em;
 }
+footer {
+	position: absolute;
+	left: 200px;	
+	top: 1150px;	
+	width: 550px;
+}
+footer a {
+	font-style: italic;
+}
 .tis-bg {
 	width: 800px;
 }
@@ -99,26 +108,36 @@ span {
 	width: 28px;
 }
 #tis_fight {
-	left: 506px;
+	left: 518px;
 	top: 136px;
 }
 #tis_brains {
-	left: 506px;
+	left: 518px;
 	top: 210px;
 }
 #tis_charm {
-	left: 506px;
+	left: 518px;
 	top: 282px;
 }
 #tis_flight {
-	left: 628px;
+	left: 640px;
 	top: 100px;
 }
 #tis_brawn {
-	left: 628px;
+	left: 640px;
 	top: 174px;
 }
 #tis_grit {
-	left: 628px;
+	left: 640px;
 	top: 246px;
+}
+#tis_improvement_points {
+	left: 498px;
+	top: 384px;
+	width: 56px;
+}
+#tis_adversity_tokens {
+	left: 630px;
+	top: 348px;
+	width: 56px;
 }
