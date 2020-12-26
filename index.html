@@ -17,31 +17,44 @@
   <body>
   
 	<main class="container">
-		<img class="tis-bg" src="img/char.jpg" />
+		
+		<!--  bg -->
+		<img class="tis-bg" src="img/char.png" />
+		
+		<!--  top-left -->
 		<input class="tis-field" id="tis_name" placeholder="Enter a name" />
 		<input class="tis-field" id="tis_age" />
+		<select class="tis-field" id="tis_gender">
+			<option value="">Choose...</option>
+			<option value="alien">Alien</option>
+			<option value="female">Female</option>
+			<option value="male">Male</option>
+		</select>
+		<img class="tis_icon" id="tis_gender_repeat" src="img/bootstrap/arrow-repeat.svg" alt="Repeat" title="Repeat">
 		<input class="tis-field" id="tis_species_name" />
 		<input class="tis-field" id="tis_species_drawback" />
 		<input class="tis-field" id="tis_trope" />
 		<input class="tis-field" id="tis_fatalflaw" />
 		<span class="tis-field" id="tis_species_description"></span>
+		
+		<!--  stats -->
 		<input class="tis-stat" id="tis_fight" />
 		<input class="tis-stat" id="tis_brains" />
 		<input class="tis-stat" id="tis_charm" />
 		<input class="tis-stat" id="tis_flight" />
 		<input class="tis-stat" id="tis_brawn" />
 		<input class="tis-stat" id="tis_grit" />
+		
 	</main>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-		crossorigin="anonymous"></script>
-
+	<script src="js/lib/jquery/jquery-3.5.1.slim.min.js"></script>
 	<script src="js/lib/papaparse/4.1.2/papaparse.min.js"></script>
 	<script src="js/tis.js"></script>
 	<script src="js/tis-age.js"></script>
 	<script src="js/tis-fatalflaws.js"></script>
+	<script src="js/tis-gender.js"></script>
 	<script src="js/tis-math.js"></script>
+	<script src="js/tis-names.js"></script>
 	<script src="js/tis-species.js"></script>
 	<script src="js/tis-stats.js"></script>
 	<script src="js/tis-tropes.js"></script>

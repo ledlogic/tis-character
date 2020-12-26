@@ -13,6 +13,11 @@ span {
 .tis-bg {
 	width: 800px;
 }
+.tis_icon {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+}
 .tis-field {
 	/* border: 1px solid #ccc; */
 	border: 1px solid transparent;
@@ -36,6 +41,17 @@ span {
 #tis_age {
 	left: 260px;
 	text-transform: uppercase;
+	top: 112px;
+	width: 73px;
+}
+#tis_gender {
+	left: 335px;
+	text-transform: uppercase;
+	top: 112px;
+	width: 73px;
+}
+#tis_gender_repeat {
+	left: 410px;
 	top: 112px;
 }
 #tis_species_name {
@@ -79,7 +95,7 @@ span {
 	height: 24px;
 	padding: 0px 4px;
 	position: absolute;
-	text-align: left;
+	text-align: center;
 	width: 28px;
 }
 #tis_fight {
