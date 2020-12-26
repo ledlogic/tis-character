@@ -17,5 +17,6 @@ var tis = {
 		tis.species.init();
 		tis.tropes.init();
 		tis.stats.init();
+		tis.fatalflaws.init();
 	}
 };
