@@ -302,6 +302,18 @@ footer a {
 #tis_ship_roles_11 {
 	top: 713px;
 }
+.tis-records {
+	/* border: 1px solid red; */
+	border: 1px solid transparent;
+	font-size: 12px;
+	height: 20px;
+	left: 86px;
+	padding: 0px 4px;
+	position: absolute;
+	text-align: left;
+	width: 334px;
+}
+
 .tis-backpack {
 	/* border: 1px solid orange; */
 	border: 1px solid transparent;
@@ -313,39 +325,51 @@ footer a {
 	text-align: left;
 	width: 222px;
 }
+#tis_records_01,
 #tis_backpack_01 {
 	top: 788px;
 }
+#tis_records_02,
 #tis_backpack_02 {
 	top: 812px;
 }
+#tis_records_03,
 #tis_backpack_03 {
 	top: 836px;
 }
+#tis_records_04,
 #tis_backpack_04 {
 	top: 861px;
 }
+#tis_records_05,
 #tis_backpack_05 {
 	top: 885px;
 }
+#tis_records_06,
 #tis_backpack_06 {
 	top: 909px;
 }
+#tis_records_07,
 #tis_backpack_07 {
 	top: 933px;
 }
+#tis_records_08,
 #tis_backpack_08 {
 	top: 957px;
 }
+#tis_records_09,
 #tis_backpack_09 {
 	top: 981px;
 }
+#tis_records_10,
 #tis_backpack_10 {
 	top: 1006px;
 }
+#tis_records_11,
 #tis_backpack_11 {
 	top: 1030px;
 }
+#tis_records_12,
 #tis_backpack_12 {
 	top: 1054px;
 }
