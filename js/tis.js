@@ -14,6 +14,7 @@ var tis = {
 		console.log("tis.init");
 		
 		tis.age.init();
+		tis.credits.init();
 		tis.gender.init();
 		tis.names.init();
 		tis.species.init();

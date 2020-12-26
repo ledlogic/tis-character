@@ -3,7 +3,7 @@
 tis.age = {
 	init: function() {
 		tis.log("tis.age.init");
-		var age = 10 + tis.math.dieN(9);
+		var age = 12 + tis.math.dieN(7);
 		tis.age.set(age);
 	},
 	set: function(age) {
