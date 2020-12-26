@@ -178,3 +178,58 @@ footer a {
 	top: 348px;
 	width: 56px;
 }
+.tis-ship-roles {
+	/* border: 1px solid orange; */
+	border: 1px solid transparent;
+	font-size: 12px;
+	height: 20px;
+	padding: 0px 4px;
+	position: absolute;
+	text-align: left;
+	width: 204px;
+}
+#tis_ship_roles_01 {
+	left: 492px;
+	top: 460px;
+}
+#tis_ship_roles_02 {
+	left: 492px;
+	top: 485px;
+}
+#tis_ship_roles_03 {
+	left: 492px;
+	top: 511px;
+}
+#tis_ship_roles_04 {
+	left: 492px;
+	top: 536px;
+}
+#tis_ship_roles_05 {
+	left: 492px;
+	top: 561px;
+}
+#tis_ship_roles_06 {
+	left: 492px;
+	top: 587px;
+}
+#tis_ship_roles_07 {
+	left: 492px;
+	top: 612px;
+}
+#tis_ship_roles_08 {
+	left: 492px;
+	top: 637px;
+}
+#tis_ship_roles_09 {
+	left: 492px;
+	top: 663px;
+}
+#tis_ship_roles_10 {
+	left: 492px;
+	top: 688px;
+}
+#tis_ship_roles_11 {
+	left: 492px;
+	top: 713px;
+}
+
