@@ -131,6 +131,43 @@ footer a {
 	left: 640px;
 	top: 246px;
 }
+.tis-stat-mod {
+	background-color: transparent;
+	/* border: 1px solid cyan; */
+	border: 1px solid transparent;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 600;
+	height: 24px;
+	padding: 0px 4px;
+	position: absolute;
+	text-align: center;
+	width: 20px;
+}
+#tis_fight_mod {
+	left: 578px;
+	top: 130px;
+}
+#tis_brains_mod {
+	left: 578px;
+	top: 204px;
+}
+#tis_charm_mod {
+	left: 578px;
+	top: 276px;
+}
+#tis_flight_mod {
+	left: 708px;
+	top: 94px;
+}
+#tis_brawn_mod {
+	left: 708px;
+	top: 168px;
+}
+#tis_grit_mod {
+	left: 708px;
+	top: 240px;
+}
 #tis_improvement_points {
 	left: 498px;
 	top: 384px;
