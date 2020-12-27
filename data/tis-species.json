@@ -1,0 +1,170 @@
+[
+	{
+		"Name": "Abysseans",
+		"Description": "Water-breathing humanoids who explore space in exoskeletons.",
+		"Drawback": "Must remain in water",
+		"Bonuses": []
+	},
+	{
+		"Name": "Ananos",
+		"Description": "Bulky, mole-like creatures tantalized by the treasures found below-ground.",
+		"Drawback": "-3 to Acrobatics",
+		"Bonuses": []
+	},
+	{
+		"Name": "Benthosa",
+		"Description": "Sentient bodies of water composed of the consciousnesses of the life forms within them.",
+		"Drawback": "-1 to physical tests",
+		"Bonuses": []
+	},
+	{
+		"Name": "Calceans",
+		"Description": "Mechanical recreations of an extinct species.",
+		"Drawback": "-1 to Fight",
+		"Bonuses": []
+	},
+	{
+		"Name": "Cephalons",
+		"Description": "Gelatinous, tentacled beings that share a symbiotic relationship with their host bodies.",
+		"Drawback": "Considered criminals",
+		"Bonuses": []
+	},
+	{
+		"Name": "Chimaven",
+		"Description": "Bird-like beings obsessed with the sky.",
+		"Drawback": "Will not back down",
+		"Bonuses": []
+	},
+	{
+		"Name": "Cimexeans",
+		"Description": "Insect-like humanoids who share a hive mind.",
+		"Drawback": "Honor Hiveleader commands",
+		"Bonuses": []
+	},
+	{
+		"Name": "Cumulusareans",
+		"Description": "A friendly, cloud-like species of artists.",
+		"Drawback": "Heat-based attacks +3 bonus",
+		"Bonuses": []
+	},
+	{
+		"Name": "Espereans",
+		"Description": "Psionics advocating for intergalactic peace.",
+		"Drawback": "-1 Fight and physical Grit",
+		"Bonuses": []
+	},
+	{
+		"Name": "Frigoreans",
+		"Description": "Resurrected humanoids who value equality.",
+		"Drawback": "Must rejuvenate once per year",
+		"Bonuses": []
+	},
+	{
+		"Name": "Herbaceans",
+		"Description": "Sentient plants who rarely leave their collectives.",
+		"Drawback": "-1 Flight",
+		"Bonuses": []
+	},
+	{
+		"Name": "Humans",
+		"Description": "The restless explorers of the cosmos.",
+		"Drawback": "Restless",
+		"Bonuses": []
+	},
+	{
+		"Name": "Informeans",
+		"Description": "Gelatinous spheres who poop fuel and are super nice to everyone.",
+		"Drawback": "If not fed, will calcify",
+		"Bonuses": []
+	},
+	{
+		"Name": "Loricatoreans",
+		"Description": "Tiny humanoids who travel the galaxy in android exoskeletons.",
+		"Drawback": "Outside of their suit, d4 for Grit, Fight, and Flight",
+		"Bonuses": []
+	},
+	{
+		"Name": "Mystarians",
+		"Description": "Nomadic, all-female mystics who wield The Bind.",
+		"Drawback": "-2 to Charm",
+		"Bonuses": []
+	},
+	{
+		"Name": "Neozo",
+		"Description": "Animals given human qualities and, generally, bad attitudes.",
+		"Drawback": "Illegal creations",
+		"Bonuses": []
+	},
+	{
+		"Name": "Pantheros",
+		"Description": "Once worshiped as gods, now sought for their ability to create energy.",
+		"Drawback": "Fetch a high price",
+		"Bonuses": []
+	},
+	{
+		"Name": "Proeleans",
+		"Description": "Warlike humanoids who seek galactic domination.",
+		"Drawback": "Insulted: 6 Grit to avoid Fight",
+		"Bonuses": []
+	},
+	{
+		"Name": "Pugnarean",
+		"Description": "Tricksy, technologically-advanced shapeshifters.",
+		"Drawback": "Charm check -3 penalty",
+		"Bonuses": []
+	},
+	{
+		"Name": "Quillarians",
+		"Description": "Tiny bio-organic engineers, healers, and fuzzy hug monsters.",
+		"Drawback": "-2 to all Fight checks.",
+		"Bonuses": []
+	},
+	{
+		"Name": "Raskog",
+		"Description": "Sleeping hominids, frozen in time.",
+		"Drawback": "d4 for Charm, 1 if d4 already",
+		"Bonuses": []
+	},
+	{
+		"Name": "Reptilnae",
+		"Description": "Small, reptilian creatures with 360 vision and a flair for blending in.",
+		"Drawback": "Add 1 to severity of an attack",
+		"Bonuses": []
+	},
+	{
+		"Name": "Skitchlings",
+		"Description": "Mouthless, gangly beings often hired for covert missions or their skills at dance.",
+		"Drawback": "-3 to team checks",
+		"Bonuses": []
+	},
+	{
+		"Name": "Sollemneans",
+		"Description": "Serious, emotionally-cold humanoids.",
+		"Drawback": "-1 Charm",
+		"Bonuses": []
+	},
+	{
+		"Name": "Squillians",
+		"Description": "Bipedal shrimp originally bred for consumption.",
+		"Drawback": "Grit check 5 to attempt Flight",
+		"Bonuses": []
+	},
+	{
+		"Name": "Therinians",
+		"Description": "Intelligent bears who live in peaceful, rule-driven collectives.",
+		"Drawback": "-3 to use fine technology",
+		"Bonuses": []
+	},
+	{
+		"Name": "Throggofel",
+		"Description": "Diminutive, often-cyborg tinkerers obsessed with technology.",
+		"Drawback": "Grit check to avoid tinkering",
+		"Bonuses": []
+	},
+	{
+		"Name": "Viscoseans",
+		"Description": "Symbiotic gels looking for a willing host.",
+		"Drawback": "-1 penalty to all checks",
+		"Bonuses": []
+	}
+]

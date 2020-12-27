@@ -9,29 +9,20 @@ tis.species = {
 	},
 	request: function() {
 		tis.log("tis.species.request");
-		var csv = "data/tis-species.csv";
-		tis.log("loading data from csv[" + csv + "]");
+		var json = "data/tis-species.json";
+		tis.log("loading data from json[" + json + "]");
 		
-		Papa.parse(csv, {
-			delimiter: ",",
-			download: true,
-			header: true,
-			complete: function(d) {
-				tis.species.response(d);
-			},
-			encoding: "UTF-8"
-		});
+		$.ajax({
+			url: json,
+			dataType: "json",
+		}).done(function(d) {
+			tis.species.response(d);
+		});		
 	},
-	response: function(d, n) {
+	response: function(data) {
 		tis.log("tis.species.response");
-		var data = d.data;
-		var list = tis.species.list;
-		for (var i=0; i<data.length; i++) {
-			var datum = data[i];
-			//tis.log(["datum", datum]);
-			list[list.length++] = datum;
-		}	
-		//tis.log(["list", list]);
+		tis.species.list = data;
+		tis.log(["tis.species.list", tis.species.list]);
 		setTimeout(tis.species.callback, 10);
 	},
 	randomize: function() {
@@ -46,6 +37,7 @@ tis.species = {
 		$("#tis_species_name").val(d.Name);
 		$("#tis_species_description").html(d.Description);
 		$("#tis_species_drawback").val(d.Drawback);
+		//d.Bonuses;
 		
 		var gender = "";
 		switch (d.Name) {
