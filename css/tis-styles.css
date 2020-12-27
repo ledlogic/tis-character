@@ -47,6 +47,10 @@ footer a {
 	top: 78px;
 	width: 226px;
 }
+#tis_gender_repeat {
+	left: 410px;
+	top: 80px;
+}
 #tis_age {
 	left: 260px;
 	text-transform: uppercase;
@@ -58,10 +62,6 @@ footer a {
 	text-transform: uppercase;
 	top: 112px;
 	width: 73px;
-}
-#tis_gender_repeat {
-	left: 410px;
-	top: 112px;
 }
 #tis_species_name {
 	left: 260px;
@@ -82,8 +82,8 @@ footer a {
 	text-transform: uppercase;
 	top: 208px;
 }
-#tis_fatal_flaw {
-	left: 260px;
+#tis_fatalflaw_repeat {
+	left: 410px;
 	top: 208px;
 }
 #tis_species_description {

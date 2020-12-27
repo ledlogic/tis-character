@@ -3,10 +3,10 @@
 tis.gender = {
 	init: function() {
 		tis.log("tis.gender.init");
-		$("#tis_gender").on("change", tis.gender.onChange);
-		$("#tis_gender_repeat").on("click", tis.gender.onChange);
+		$("#tis_gender").on("change", tis.gender.randomize);
+		$("#tis_gender_repeat").on("click", tis.gender.randomize);
 	},
-	onChange: function() {
+	randomize: function() {
 		var gender = $("#tis_gender").val();
 		
 		// load random name

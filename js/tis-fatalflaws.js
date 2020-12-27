@@ -5,6 +5,8 @@ tis.fatalflaws = {
 	init: function() {
 		tis.log("tis.fatalflaws.init");
 		tis.fatalflaws.request();
+		$("#tis_fatalflaw_repeat").on("click", tis.fatalflaws.randomize);
+		tis.fatalflaws.callback = tis.fatalflaws.randomize;
 	},
 	request: function() {
 		tis.log("tis.fatalflaws.request");
@@ -31,12 +33,16 @@ tis.fatalflaws = {
 			list[list.length++] = datum;
 		}	
 		//tis.log(["list", list]);
+		setTimeout(tis.fatalflaws.callback, 10);
+	},
+	randomize: function() {
+		var list = tis.fatalflaws.list;
 		var index = tis.math.dieZ(list.length);
 		var fatalflaw = list[index];
 		tis.fatalflaws.set(fatalflaw);
 	},
 	set: function(d) {
-		tis.log(["d", d]);
+		tis.log(["tis.fatalflaws.set, d", d]);
 		$("#tis_fatalflaw").val(d.Name);
 	}
 };
