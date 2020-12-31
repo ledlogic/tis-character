@@ -41,9 +41,12 @@ tis.stats = {
 		$("#tis_" + name.toLowerCase() + "_mod").val(modStr);
 	},
 	addMod: function(stat, mod) {
+		tis.log(["tis.stats.addMod, stat, mod", stat, mod]);
 		tis.stats.mods[stat] += mod;
 		var stat = tis.stats.map[stat];
-		stat.mod += mod;
-		tis.stats.renderStat(stat);
+		if (stat) {
+			stat.mod += mod;
+			tis.stats.renderStat(stat);
+		}
 	}
 };

@@ -2,6 +2,7 @@
 
 tis.species = {
 	list:[],
+	selected: null,
 	init: function() {
 		tis.log("tis.species.init");
 		tis.species.request();
@@ -34,6 +35,7 @@ tis.species = {
 	},
 	set: function(d) {
 		tis.log(["tis.species.set, d", d]);
+		tis.species.selected = d;
 		
 		// text
 		$("#tis_species_name").val(d.Name);
@@ -42,7 +44,7 @@ tis.species = {
 		
 		// adjustments
 		
-		_.each(d.Adjustments, function(adjustment, index) {
+		_.each(d.Bonuses, function(adjustment, index) {
 			var stat = adjustment.stat;
 			var mod = adjustment.mod;
 			tis.log("stat[" + stat + "], mod[" + mod + "]");
@@ -66,5 +68,18 @@ tis.species = {
 		 }
 		 $("#tis_gender").val(gender);
 		 $("#tis_gender").trigger("change");
+	},
+	randomTrope: function() {
+		var trope = null;
+		var specTropes = tis.species.selected.Tropes;
+		if (specTropes.length) {
+			var index = tis.math.dieZ(specTropes.length);
+			name = specTropes[index];
+			trope = tis.tropes.findByName(name);
+			if (!trope) {
+				alert("Could not find trope, name[" + name + "]");
+			}
+		}
+		return trope;
 	}
 };

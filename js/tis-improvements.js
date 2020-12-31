@@ -52,7 +52,7 @@ tis.improvements = {
 		
 		var addImprovement = (tis.improvements.points >= improvement.IP)
 			&& !tis.improvements.hasImprovement(improvement)
-			&& tis.improvements.hasRequirement(improvement)
+			&& tis.improvements.hasRequirement(improvement.Requirement)
 		;
 		
 		if (addImprovement) {
@@ -69,17 +69,16 @@ tis.improvements = {
 	},
 	hasImprovement: function(improvement) {
 		var ret = false;
-		_.find(tis.improvements.selected, function(test) {
+		_.each(tis.improvements.selected, function(test) {
 			ret |= test.Name == improvement.Name;
 		});
 		return ret;
 	},
-	hasRequirement: function(improvement) {
+	hasRequirement: function(req) {
 		var ret = true;
-		var req = improvement.Requirement;
 		if (req) {
 			ret = false;
-			_.find(tis.improvements.selected, function(test) {
+			_.each(tis.improvements.selected, function(test) {
 				ret |= test.Name == req;
 			});
 		}
@@ -89,8 +88,8 @@ tis.improvements = {
 		_.each(tis.improvements.selected, function(improvement, index) {
 			var key = (index < 10 ? "0" : "") + index;
 			$("#tis_improvements_cost_" + key).val(improvement.IP);
-			$("#tis_improvements_name_" + key).val(improvement.Name);
-			$("#tis_improvements_description_" + key).val(improvement.Description);
+			$("#tis_improvements_name_" + key).html(improvement.Name);
+			$("#tis_improvements_description_" + key).html(improvement.Description);
 			$("#tis_improvement_points").val(tis.improvements.points);
 		});
 	},

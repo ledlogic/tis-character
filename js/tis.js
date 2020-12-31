@@ -20,6 +20,7 @@ var tis = {
 		// stats < species
 		tis.stats.init(); 
 		tis.species.init();
+		// tropes > species
 		tis.tropes.init();
 		tis.fatalflaws.init();
 		tis.improvements.init();

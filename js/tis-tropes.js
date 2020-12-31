@@ -31,13 +31,33 @@ tis.tropes = {
 			list[list.length++] = datum;
 		}	
 		//tis.log(["list", list]);
-		var index = tis.math.dieZ(list.length);
-		var trope = list[index];
+		setTimeout(tis.tropes.randomize, 10);
+	},
+	randomize: function() {
+		tis.log("tis.tropes.randomize");
+		if (!tis.species.selected) {
+			setTimeout(tis.tropes.randomize, 10);
+			return;
+		}
+
+		var trope = tis.species.randomTrope();		
+		if (!trope) {
+			var list = tis.tropes.list;
+			var index = tis.math.dieZ(list.length);
+			trope = list[index];
+		}
+		
 		tis.tropes.set(trope);
 	},
-	set: function(d) {
-		tis.log(["d", d]);
-		$("#tis_trope").val(d.Name);
-		tis.stats.set(d.Stats);
+	set: function(trope) {
+		tis.log(["tis.tropes.set, trope", trope]);
+		$("#tis_trope").val(trope.Name);
+		tis.stats.set(trope.Stats);
+	},
+	findByName: function(name) {
+		var ret = _.find(tis.tropes.list, function(test) {
+			return test.Name == name;
+		});
+		return ret;
 	}
 };

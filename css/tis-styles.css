@@ -10,7 +10,7 @@ label {
 span {
 	margin: 0 0.5em;
 }
-textarea {
+textarea, div[contenteditable=true] {
     overflow: hidden;
     resize: none;
 }
@@ -101,7 +101,6 @@ footer a {
 	top: 256px;
 	width: 292px;
 }
-
 .tis-stat {
 	/* border: 1px solid #ccc; */
 	border: 1px solid transparent;
@@ -236,12 +235,12 @@ footer a {
 #tis_improvements_cost_03,
 #tis_improvements_name_03,
 #tis_improvements_description_03 {
-	top: 532px;
+	top: 534px;
 }
 #tis_improvements_cost_04,
 #tis_improvements_name_04,
 #tis_improvements_description_04 {
-	top: 558px;
+	top: 560px;
 }
 #tis_improvements_cost_05,
 #tis_improvements_name_05,
@@ -261,7 +260,7 @@ footer a {
 #tis_improvements_cost_08,
 #tis_improvements_name_08,
 #tis_improvements_description_08 {
-	top: 660px;
+	top: 662px;
 }
 #tis_improvements_cost_09,
 #tis_improvements_name_09,
