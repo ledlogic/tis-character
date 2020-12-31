@@ -4,21 +4,24 @@
 		"Description": "Water-breathing humanoids who explore space in exoskeletons.",
 		"Drawback": "Must remain in water",
 		"Bonuses": [],
-		"Tropes": ["Diplomat", "Engineer", "Exiled Royalty", "Medic", "Missionary", "Profiteer", "Scholar"]
+		"Tropes": ["Diplomat", "Engineer", "Exiled Royalty", "Medic", "Missionary", "Profiteer", "Scholar"],
+		"Improvements": ["Cyberware Hacker", "Gross", "Skywalker", "Space Athlete", "Treasure Hunter"]
 	},
 	{
 		"Name": "Ananos",
 		"Description": "Bulky, mole-like creatures tantalized by the treasures found below-ground.",
 		"Drawback": "-3 to Acrobatics",
 		"Bonuses": [],
-		"Tropes": ["Diplomat", "Do-Gooder", "Engineer", "Newbie", "Profiteer"]
+		"Tropes": ["Diplomat", "Do-Gooder", "Engineer", "Newbie", "Profiteer"],
+		"Improvements": ["Goody Two-Shoes", "Gross", "Loyal Crewmember", "Protector", "Treasure Hunter", "Utility Belt"]
 	},
 	{
 		"Name": "Benthosa",
 		"Description": "Sentient bodies of water composed of the consciousnesses of the life forms within them.",
 		"Drawback": "-1 to physical tests",
 		"Bonuses": [],
-		"Tropes": ["Diplomat", "Do-Gooder", "Dreamer", "Lone Survivor", "Newbie", "Scholar"]
+		"Tropes": ["Diplomat", "Do-Gooder", "Dreamer", "Lone Survivor", "Newbie", "Scholar"],
+		"Improvements": ["Intuitive", "Nerves of Steel", "Regeneration", "Skywalker", "Stealthy"]
 	},
 	{
 		"Name": "Calceans",
@@ -30,35 +33,40 @@
 				"mod": -1
 			}
 		],
-		"Tropes": ["Captain", "Diplomat", "Do-Gooder", "Face", "Medic", "Tech Wizard"]
+		"Tropes": ["Captain", "Diplomat", "Do-Gooder", "Face", "Medic", "Tech Wizard"],
+		"Improvements": ["Cyberware Hacker", "High Flier", "Intergalactically Beloved", "Goody Two-Shoes", "Nerves of Steel", "Protector", "Utility Belt"]
 	},
 	{
 		"Name": "Cephalons",
 		"Description": "Gelatinous, tentacled beings that share a symbiotic relationship with their host bodies.",
 		"Drawback": "Considered criminals",
 		"Bonuses": [],
-		"Tropes": ["Diplomat", "Missionary", "Captain", "Exiled Royalty", "Explorer", "Hitchhiker", "Lone Survivor", "Merc", "Traveling Celebrity"]
+		"Tropes": ["Diplomat", "Missionary", "Captain", "Exiled Royalty", "Explorer", "Hitchhiker", "Lone Survivor", "Merc", "Traveling Celebrity"],
+		"Improvements": ["Gross", "Hive Mind 1", "Hive Mind 2", "Intuitive", "Nerves of Steel", "Scanner", "Trouble Maker"]
 	},
 	{
 		"Name": "Chimaven",
 		"Description": "Bird-like beings obsessed with the sky.",
 		"Drawback": "Will not back down",
 		"Bonuses": [],
-		"Tropes": ["Dreamer", "Explorer", "Flyboy", "Hitchhiker"]
+		"Tropes": ["Dreamer", "Explorer", "Flyboy", "Hitchhiker"],
+		"Improvements": ["High Flier", "Hot Shot Pilot", "Intergalactically Beloved", "Interspecies Allure", "Intuitive", "Overachiever"]
 	},
 	{
 		"Name": "Cimexeans",
 		"Description": "Insect-like humanoids who share a hive mind.",
 		"Drawback": "Honor Hiveleader commands",
 		"Bonuses": [],
-		"Tropes": ["Exiled Royalty", "Explorer", "Flyboy", "Medic", "Merc", "Missionary", "Newbie", "Scholar", "Soldier"]
+		"Tropes": ["Exiled Royalty", "Explorer", "Flyboy", "Medic", "Merc", "Missionary", "Newbie", "Scholar", "Soldier"],
+		"Improvements": ["Hot Shot Pilot", "Blaster Master", "Escape Artist", "High Flier", "Nerves of Steel", "Protector", "Scanner", "Tough"]
 	},
 	{
 		"Name": "Cumulusareans",
 		"Description": "A friendly, cloud-like species of artists.",
 		"Drawback": "Heat-based attacks +3 bonus",
 		"Bonuses": [],
-		"Tropes": ["Do-Gooder", "Dreamer", "Explorer", "Flyboy", "Lone Survivor", "Scholar"]		
+		"Tropes": ["Do-Gooder", "Dreamer", "Explorer", "Flyboy", "Lone Survivor", "Scholar"],
+		"Improvements": ["High Flier", "Intergalactically Beloved", "Regeneration", "Skywalker", "Stealthy"]		
 	},
 	{
 		"Name": "Espereans",
@@ -74,14 +82,16 @@
 				"mod": -1
 			}
 		],
-		"Tropes": ["Diplomat", "Do-Gooder", "Dreamer", "Exiled Royalty", "Missionary", "Scholar", "Traveling Celebrity"]
+		"Tropes": ["Diplomat", "Do-Gooder", "Dreamer", "Exiled Royalty", "Missionary", "Scholar", "Traveling Celebrity"],
+		"Improvements": ["Escape Artist", "Hive Mind 1", "Hive Mind 2", "Goody Two-Shoes", "Nerves of Steel", "Saboteur", "Scanner"]
 	},
 	{
 		"Name": "Frigoreans",
 		"Description": "Resurrected humanoids who value equality.",
 		"Drawback": "Must rejuvenate once per year",
 		"Bonuses": [],
-		"Tropes": ["Dreamer", "Engineer", "Experiment", "Lone Survivor", "Medic", "Tech Wizard"]
+		"Tropes": ["Dreamer", "Engineer", "Experiment", "Lone Survivor", "Medic", "Tech Wizard"],
+		"Improvements": ["Goody Two-Shoes", "Gross", "Intuitive", "Hive Mind 1", "Hive Mind 2", "Nerves of Steel"]
 	},
 	{
 		"Name": "Herbaceans",
@@ -93,28 +103,32 @@
 				"mod": -1
 			}
 		],
-		"Tropes": ["Dreamer", "Exiled Royalty", "Explorer", "Hitchhiker", "Lone Survivor", "Medic"]
+		"Tropes": ["Dreamer", "Exiled Royalty", "Explorer", "Hitchhiker", "Lone Survivor", "Medic"],
+		"Improvements": ["Hive Mind 1", "Hive Mind 2", "Intuitive", "Loyal Crewmember", "Lucky", "Protector", "Tough"]
 	},
 	{
 		"Name": "Humans",
 		"Description": "The restless explorers of the cosmos.",
 		"Drawback": "Restless",
 		"Bonuses": [],
-		"Tropes": ["Captain", "Explorer", "Face", "Flyboy", "Hitchhiker", "Scoundrel", "Ship Born"]
+		"Tropes": ["Captain", "Explorer", "Face", "Flyboy", "Hitchhiker", "Scoundrel", "Ship Born"],
+		"Improvements": ["Hot Shot Pilot", "Blaster Master", "Trouble Maker", "Resistance Fighter", "Saboteur", "Treasure Hunter", "Utility Belt"]
 	},
 	{
 		"Name": "Informeans",
 		"Description": "Gelatinous spheres who poop fuel and are super nice to everyone.",
 		"Drawback": "If not fed, will calcify",
 		"Bonuses": [],
-		"Tropes": ["Do-Gooder", "Dreamer", "Exiled Royalty", "Profiteer", "Scoundrel", "Travelling Celebrity"]
+		"Tropes": ["Do-Gooder", "Dreamer", "Exiled Royalty", "Profiteer", "Scoundrel", "Travelling Celebrity"],
+		"Improvements": ["Escape Artist", "Gross", "Intergalactically Beloved", "Regeneration", "Stealthy"]
 	},
 	{
 		"Name": "Loricatoreans",
 		"Description": "Tiny humanoids who travel the galaxy in android exoskeletons.",
 		"Drawback": "Outside of their suit, d4 for Grit, Fight, and Flight",
 		"Bonuses": [],
-		"Tropes": ["Engineer", "Exiled Royalty", "Explorer", "Flyboy", "Merc", "Profiteer", "Scoundrel", "Tech Wizard", "Traveling Celebrity"]
+		"Tropes": ["Engineer", "Exiled Royalty", "Explorer", "Flyboy", "Merc", "Profiteer", "Scoundrel", "Tech Wizard", "Traveling Celebrity"],
+		"Improvements": ["Cyberware Hacker", "Escape Artist", "Hot Shot Pilot", "Resistance Fighter", "Saboteur", "Scanner", "Skywalker", "Treasure Hunter", "Utility Belt"]
 	},
 	{
 		"Name": "Mystarians",
@@ -126,28 +140,32 @@
 				"mod": -2
 			}
 		],
-		"Tropes": ["Dreamer", "Medic", "Scholar", "Face", "Missionary", "Newbie"]
+		"Tropes": ["Dreamer", "Medic", "Scholar", "Face", "Missionary", "Newbie"],
+		"Improvements": ["Escape Artist", "Hive Mind 1", "Hive Mind 2", "Intuitive", "Nerves of Steel", "Regeneration", "Skywalker", "Spirited Motivator"]
 	},
 	{
 		"Name": "Neozo",
 		"Description": "Animals given human qualities and, generally, bad attitudes.",
 		"Drawback": "Illegal creations",
 		"Bonuses": [],
-		"Tropes": ["Experiment", "Explorer", "Flyboy", "Lone Survivor", "Merc", "Newbie", "Scoundrel", "Ship Born", "Soldier"]
+		"Tropes": ["Experiment", "Explorer", "Flyboy", "Lone Survivor", "Merc", "Newbie", "Scoundrel", "Ship Born", "Soldier"],
+		"Improvements": ["Blaster Master", "Cyberware Hacker", "Escape Artist", "Hot Shot Pilot", "Trouble Maker", "Saboteur", "Stealthy"]
 	},
 	{
 		"Name": "Pantheros",
 		"Description": "Once worshiped as gods, now sought for their ability to create energy.",
 		"Drawback": "Fetch a high price",
 		"Bonuses": [],
-		"Tropes": ["Do-Gooder", "Dreamer", "Experiment", "Hitchhiker", "Lone Survivor"]
+		"Tropes": ["Do-Gooder", "Dreamer", "Experiment", "Hitchhiker", "Lone Survivor"],
+		"Improvements": []
 	},
 	{
 		"Name": "Proeleans",
 		"Description": "Warlike humanoids who seek galactic domination.",
 		"Drawback": "Insulted: 6 Grit to avoid Fight",
 		"Bonuses": [],
-		"Tropes": ["Captain", "Exiled Royalty", "Merc", "Scoundrel", "Soldier"]
+		"Tropes": ["Captain", "Exiled Royalty", "Merc", "Scoundrel", "Soldier"],
+		"Improvements": ["High Flier", "Intuitive", "Saboteur", "Scanner", "Skywalker"]
 	},
 	{
 		"Name": "Pugnarean",
@@ -159,35 +177,40 @@
 				"mod": -3
 			}
 		],
-		"Tropes": ["Exiled Royalty", "Hitchhiker", "Missionary", "Newbie", "Profiteer", "Scoundrel", "Ship Born"]
+		"Tropes": ["Exiled Royalty", "Hitchhiker", "Missionary", "Newbie", "Profiteer", "Scoundrel", "Ship Born"],
+		"Improvements": ["Cyberware Hacker", "Escape Artist", "Gross", "Intuitive", "Treasure Hunter", "Trouble Maker"]
 	},
 	{
 		"Name": "Quillarians",
 		"Description": "Tiny bio-organic engineers, healers, and fuzzy hug monsters.",
 		"Drawback": "-2 to all Fight checks.",
 		"Bonuses": [],
-		"Tropes": ["Do-Gooder", "Engineer", "Hitchhiker", "Medic", "Newbie", "Scholar"]
+		"Tropes": ["Do-Gooder", "Engineer", "Hitchhiker", "Medic", "Newbie", "Scholar"],
+		"Improvements": ["Escape Artist", "Goody Two-Shoes", "Intuitive", "Loyal Crewmember", "Lucky", "Regeneration", "Spirited Motivator"]
 	},
 	{
 		"Name": "Raskog",
 		"Description": "Sleeping hominids, frozen in time.",
 		"Drawback": "d4 for Charm, 1 if d4 already",
 		"Bonuses": [],
-		"Tropes": ["Tech Wizard", "Traveling Celebrity", "Scholar", "Hitchhiker"]
+		"Tropes": ["Tech Wizard", "Traveling Celebrity", "Scholar", "Hitchhiker"],
+		"Improvements": ["Escape Artist", "Gross", "Intuitive", "Nerves of Steel", "Regeneration", "Saboteur", "Stealthy"]
 	},
 	{
 		"Name": "Reptilnae",
 		"Description": "Small, reptilian creatures with 360 vision and a flair for blending in.",
 		"Drawback": "Add 1 to severity of an attack",
 		"Bonuses": [],
-		"Tropes": ["Explorer", "Hitchhiker", "Lone Survivor", "Scoundrel"]
+		"Tropes": ["Explorer", "Hitchhiker", "Lone Survivor", "Scoundrel"],
+		"Improvements": ["Escape Artist", "Intuitive", "Lucky", "Stealthy", "Trouble Maker"]
 	},
 	{
 		"Name": "Skitchlings",
 		"Description": "Mouthless, gangly beings often hired for covert missions or their skills at dance.",
 		"Drawback": "-3 to team checks",
 		"Bonuses": [],
-		"Tropes": ["Dreamer", "Merc", "Newbie", "Scoundrel"]
+		"Tropes": ["Dreamer", "Merc", "Newbie", "Scoundrel"],
+		"Improvements": ["Escape Artist", "Gross", "Trouble Maker", "Stealthy"]
 	},
 	{
 		"Name": "Sollemneans",
@@ -199,28 +222,32 @@
 				"mod": -1
 			}
 		],
-		"Tropes": ["Diplomat", "Do-Gooder", "Engineer", "Face", "Medic", "Missionary", "Scholar", "Tech Wizard"]
+		"Tropes": ["Diplomat", "Do-Gooder", "Engineer", "Face", "Medic", "Missionary", "Scholar", "Tech Wizard"],
+		"Improvements": ["Intuitive", "Goody Two-Shoes", "Nerves of Steel", "Loyal Crewmember", "Scanner", "Tough", "Utility Belt"]
 	},
 	{
 		"Name": "Squillians",
 		"Description": "Bipedal shrimp originally bred for consumption.",
 		"Drawback": "Grit check 5 to attempt Flight",
 		"Bonuses": [],
-		"Tropes": ["Do-Gooder", "Dreamer", "Exiled Royalty", "Face", "Hitchhiker", "Newbie", "Ship Born"]
+		"Tropes": ["Do-Gooder", "Dreamer", "Exiled Royalty", "Face", "Hitchhiker", "Newbie", "Ship Born"],
+		"Improvements": ["Escape Artist", "Gross", "Intergalactically Beloved", "Resistance Fighter"]
 	},
 	{
 		"Name": "Therinians",
 		"Description": "Intelligent bears who live in peaceful, rule-driven collectives.",
 		"Drawback": "-3 to use fine technology",
 		"Bonuses": [],
-		"Tropes": ["Dreamer", "Explorer", "Hitchhiker", "Missionary", "Newbie", "Traveling Celebrity"]
+		"Tropes": ["Dreamer", "Explorer", "Hitchhiker", "Missionary", "Newbie", "Traveling Celebrity"],
+		"Improvements": ["Gross", "Intergalactically Beloved", "Intuitive", "Nerves of Steel", "Protector", "Tough"]
 	},
 	{
 		"Name": "Throggofel",
 		"Description": "Diminutive, often-cyborg tinkerers obsessed with technology.",
 		"Drawback": "Grit check to avoid tinkering",
 		"Bonuses": [],
-		"Tropes": ["Engineer", "Explorer", "Medic", "Merc", "Missionary", "Profiteer", "Scoundrel", "Tech Wizard"]
+		"Tropes": ["Engineer", "Explorer", "Medic", "Merc", "Missionary", "Profiteer", "Scoundrel", "Tech Wizard"],
+		"Improvements": ["Blaster Master", "High Flier", "Nerves of Steel", "Scanner", "Tough", "Treasure Hunter", "Utility Belt"]
 	},
 	{
 		"Name": "Viscoseans",
@@ -252,6 +279,7 @@
 				"mod": -1
 			}
 		],
-		"Tropes": []
+		"Tropes": [],
+		"Improvements": []
 	}
 ]

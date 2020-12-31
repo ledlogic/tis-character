@@ -7,3 +7,4 @@ Teens in Space random character generator
 * [Bootstrap icons](https://icons.getbootstrap.com/)
 * [Papaparse](https://www.papaparse.com/)
 * [Underscore](https://underscorejs.org/)
+* [Quoting arrays](https://jsfiddle.net/ledlogic/4r28nkg0/)

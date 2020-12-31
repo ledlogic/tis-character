@@ -20,7 +20,7 @@ tis.stats = {
 				var name = stats[i];
 				var die = tis.stats.levels[i];
 				var mod = tis.stats.mods[stats[i]];
-				tis.log("mod[" + mod + "]");
+				//tis.log("mod[" + mod + "]");
 				var stat = {
 					name: name,
 					die: die,

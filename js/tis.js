@@ -11,8 +11,8 @@ var tis = {
 		}
 	},
 	init: function() {
-		console.log("tis.init");
-		
+		tis.log(".................................");
+		tis.log("tis.init");
 		tis.age.init();
 		tis.credits.init();
 		tis.gender.init();
