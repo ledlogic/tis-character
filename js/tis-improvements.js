@@ -49,19 +49,47 @@ tis.improvements = {
 		var index = tis.math.dieZ(list.length);
 		var improvement = list[index];
 		//tis.log(improvement);
-		if (tis.improvements.points >= improvement.IP) {
+		
+		var addImprovement = (tis.improvements.points >= improvement.IP)
+			&& !tis.improvements.hasImprovement(improvement)
+			&& tis.improvements.hasRequirement(improvement)
+		;
+		
+		if (addImprovement) {
 			tis.improvements.points -= improvement.IP;
 			tis.improvements.selected.push(improvement);
-			var index = tis.improvements.selected.length;
-			var key = (index < 10 ? "0" : "") + index;
-			$("#tis_improvements_cost_" + key).val(improvement.IP);
-			$("#tis_improvements_name_" + key).val(improvement.Name);
-			$("#tis_improvements_description_" + key).val(improvement.Description);
-			$("#tis_improvement_points").val(tis.improvements.points);
+			tis.improvements.render();
 		}
 		
 		if (tis.improvements.points > 0 && tis.improvements.selected.length < 10) {
 			setTimeout(tis.improvements.randomize, 10);
 		}
+	},
+	hasImprovement: function(improvement) {
+		var ret = false;
+		_.find(tis.improvements.selected, function(test) {
+			ret |= test.Name == improvement.Name;
+		});
+		return ret;
+	},
+	hasRequirement: function(improvement) {
+		var ret = true;
+		var req = improvement.Requirement;
+		if (req) {
+			ret = false;
+			_.find(tis.improvements.selected, function(test) {
+				ret |= test.Name == req;
+			});
+		}
+		return ret;
+	},
+	render: function() {
+		_.each(tis.improvements.selected, function(improvement, index) {
+			var key = (index < 10 ? "0" : "") + index;
+			$("#tis_improvements_cost_" + key).val(improvement.IP);
+			$("#tis_improvements_name_" + key).val(improvement.Name);
+			$("#tis_improvements_description_" + key).val(improvement.Description);
+			$("#tis_improvement_points").val(tis.improvements.points);
+		});
 	}
 };

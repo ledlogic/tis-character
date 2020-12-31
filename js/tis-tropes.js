@@ -21,7 +21,7 @@ tis.tropes = {
 			encoding: "UTF-8"
 		});
 	},
-	response: function(d, n) {
+	response: function(d) {
 		tis.log("tis.tropes.response");
 		var data = d.data;
 		var list = tis.tropes.list;

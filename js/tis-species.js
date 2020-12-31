@@ -34,11 +34,22 @@ tis.species = {
 	},
 	set: function(d) {
 		tis.log(["tis.species.set, d", d]);
+		
+		// text
 		$("#tis_species_name").val(d.Name);
 		$("#tis_species_description").html(d.Description);
 		$("#tis_species_drawback").val(d.Drawback);
-		//d.Bonuses;
 		
+		// adjustments
+		
+		_.each(d.Adjustments, function(adjustment, index) {
+			var stat = adjustment.stat;
+			var mod = adjustment.mod;
+			tis.log("stat[" + stat + "], mod[" + mod + "]");
+			tis.stats.addMod(stat, mod);
+		});
+		
+		// gender		
 		var gender = "";
 		switch (d.Name) {
 			case "Humans":

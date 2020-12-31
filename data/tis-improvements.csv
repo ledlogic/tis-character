@@ -1,37 +1,36 @@
-"Name","IP","Description","Requirement"
-"Blaster Master","2","Combat checks with hand-held pistols are made at +2."
-"Cyberware Hacker","1","You can make or restore Character Improvements on yourself or others."
-"Escape Artist","1","Checks to find hiding places or escape routes are made at +3."
-"Goody Two-Shoes","1","Spend an Adversity Token to locate and receive help, within reason and without making any stat checks, from law enforcement on any inhabited planet."
-"Gross","1","You have some kind of gross bodily trick that you can do on command."
-"Heightened Ability +1","1","Gives you a fixed, static improvement to all of your Stat checks with the assigned stat."
-"Heightened Ability +2","2","Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.","Heightened Ability +1"
-"Heightened Ability +3","3","Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.","Heightened Ability +2"
-"Heightened Ability +4","4","Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.","Heightened Ability +3"
-"High Flier","2","You can fly, either in space or on a planet's surface, using either biological means or, far more often, technology."
-"Hive Mind 1","2","You share a hive mind with a group of creatures."
-"Hive Mind 2","4","You may communicate with similarly able members of your hive mind at greater distances."
-"Hot Shot Pilot","2","Flight checks in a spaceship are made at +2."
-"Intergalactically Beloved","2","People on developed planets recognize you and generally love your creative and/ or charitable work. +3 to Charm checks with characters who love your work."
-"Interspecies Allure","1","If a member of another species could find you attractive, get +2 to Charm checks against them."
-"Intuitive","1","Spend 1 AT to ask the GM about your surroundings, an NPC, or the like."
-"Laserblade Master","2","Combat checks with a laserblade are made at +2."
-"Loyal Crewmember","1","When you are present to help a crewmate with a check, each AT you spend gives them +2 instead of +1."
-"Lucky","2","Spend 1 AT to reroll a stat check."
-"Nerves of Steel","1","Spend 1 AT to take half of your die’s value instead of rolling on a Snap Decision."
-"Overachiever","1","+2 to Charm checks when interacting with an authority figure."
-"Protector","1","You get a +3 bonus when defending your crewmates."
-"Regeneration","3","Spend up to 5 Adversity Tokens to regenerate from an injury."
-"Resistance Fighter","1","Spend 1 AT to locate and receive help, within reason and without making any Stat checks, from the group resisting the intergalactic authorities."
-"Saboteur","2","Spend 2 AT to decrease any Pressure Gauge by 1."
-"Scanner","1","Spend 1 AT to learn about the Pressure Gauge closest to maxing out."
-"Shapeshifting","5","Spend 1 AT to change into a similarly-sized creature or object."
-"Skilled at...","1","Choose a non-combat skill.
-"Skywalker","4","You can survive in space for a number of minutes equal to a Grit check."
-"Space Athlete","1","Spend 1 AT to automatically succeed when performing a physical manuever in zero gravity."
-"Spirited Motivator","1","You may spend AT to help a crewmate even when you are not present."
-"Stealthy","2","Spend 1 AT to not be seen, within reason."
-"Tough","1","If you lose a combat roll, add +3 to the negative number. You will still lose the roll no matter what but could reduce your loss to -1."
-"Treasure Hunter","1 Spend 1 AT to fi nd a useful item in your surroundings."
-"Trouble Maker","1","Spend an Adversity Token to locate and receive help, within reason and without making any stat checks, from a criminal network on any inhabited planet."
-"Utility Belt 2","Spend 1 AT to just happen to have one commonplace item with you."
+Name,IP,Description,Requirement
+Blaster Master,2,Combat checks with hand-held pistols are made at +2.,,
+Cyberware Hacker,1,You can make or restore Character Improvements on yourself or others.,,
+Escape Artist,1,Checks to find hiding places or escape routes are made at +3.,,
+Goody Two-Shoes,1,"Spend an Adversity Token to locate and receive help, within reason and without making any stat checks, from law enforcement on any inhabited planet.",,
+Gross,1,You have some kind of gross bodily trick that you can do on command.
+Heightened Ability +1,1,"Gives you a fixed, static improvement to all of your Stat checks with the assigned stat."
+Heightened Ability +2,2,"Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.",Heightened Ability +1
+Heightened Ability +3,3,"Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.",Heightened Ability +2
+Heightened Ability +4,4,"Gives you a fixed, static improvement to all of your Stat checks with the assigned stat.",Heightened Ability +3,
+High Flier,2,"You can fly, either in space or on a planet's surface, using either biological means or, far more often, technology."
+Hive Mind 1,2,You share a hive mind with a group of creatures.,
+Hive Mind 2,4,You may communicate with similarly able members of your hive mind at greater distances.,Hive Mind 1
+Hot Shot Pilot,2,Flight checks in a spaceship are made at +2.,,
+Intergalactically Beloved,2,People on developed planets recognize you and generally love your creative and/ or charitable work. +3 to Charm checks with characters who love your work.
+Interspecies Allure,1,"If a member of another species could find you attractive, get +2 to Charm checks against them."
+Intuitive,1,"Spend 1 AT to ask the GM about your surroundings, an NPC, or the like."
+Laserblade Master,2,Combat checks with a laserblade are made at +2.
+Loyal Crewmember,1,"When you are present to help a crewmate with a check, each AT you spend gives them +2 instead of +1."
+Lucky,2,Spend 1 AT to reroll a stat check.
+Nerves of Steel,1,Spend 1 AT to take half of your die's value instead of rolling on a Snap Decision.
+Overachiever,1,+2 to Charm checks when interacting with an authority figure.
+Protector,1,You get a +3 bonus when defending your crewmates.
+Regeneration,3,Spend up to 5 Adversity Tokens to regenerate from an injury.
+Resistance Fighter,1,"Spend 1 AT to locate and receive help, within reason and without making any Stat checks, from the group resisting the intergalactic authorities."
+Saboteur,2,Spend 2 AT to decrease any Pressure Gauge by 1.
+Scanner,1,Spend 1 AT to learn about the Pressure Gauge closest to maxing out.
+Shapeshifting,5,Spend 1 AT to change into a similarly-sized creature or object.
+Skilled at...,1,Choose a non-combat skill.,4,You can survive in space for a number of minutes equal to a Grit check.
+Space Athlete,1,Spend 1 AT to automatically succeed when performing a physical manuever in zero gravity.
+Spirited Motivator,1,You may spend AT to help a crewmate even when you are not present.
+Stealthy,2,"Spend 1 AT to not be seen, within reason."
+Tough,1,"If you lose a combat roll, add +3 to the negative number. You will still lose the roll no matter what but could reduce your loss to -1."
+Treasure Hunter,1,Spend 1 AT to fi nd a useful item in your surroundings.
+Trouble Maker,1,"Spend an Adversity Token to locate and receive help, within reason and without making any stat checks, from a criminal network on any inhabited planet."
+Utility Belt,2,Spend 1 AT to just happen to have one commonplace item with you.

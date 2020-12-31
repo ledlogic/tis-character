@@ -5,21 +5,22 @@ $(document).ready(function() {
 /* TIS App singleton */
 
 var tis = {
-	log : function(s) {
+	log: function(s) {
 		if (typeof (window.console) != "undefined") {
 			console.log(s);
 		}
 	},
-	init : function() {
+	init: function() {
 		console.log("tis.init");
 		
 		tis.age.init();
 		tis.credits.init();
 		tis.gender.init();
 		tis.names.init();
+		// stats < species
+		tis.stats.init(); 
 		tis.species.init();
 		tis.tropes.init();
-		tis.stats.init();
 		tis.fatalflaws.init();
 		tis.improvements.init();
 		tis.adversity.init();

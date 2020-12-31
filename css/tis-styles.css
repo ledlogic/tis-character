@@ -145,7 +145,7 @@ footer a {
 	background-color: transparent;
 	/* border: 1px solid cyan; */
 	border: 1px solid transparent;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: italic;
 	font-weight: 600;
 	height: 24px;
@@ -156,27 +156,27 @@ footer a {
 }
 #tis_fight_mod {
 	left: 578px;
-	top: 130px;
+	top: 132px;
 }
 #tis_brains_mod {
 	left: 578px;
-	top: 204px;
+	top: 206px;
 }
 #tis_charm_mod {
 	left: 578px;
-	top: 276px;
+	top: 278px;
 }
 #tis_flight_mod {
 	left: 708px;
-	top: 94px;
+	top: 96px;
 }
 #tis_brawn_mod {
 	left: 708px;
-	top: 168px;
+	top: 170px;
 }
 #tis_grit_mod {
 	left: 708px;
-	top: 240px;
+	top: 242px;
 }
 #tis_improvement_points {
 	left: 498px;
@@ -226,42 +226,42 @@ footer a {
 #tis_improvements_cost_01,
 #tis_improvements_name_01,
 #tis_improvements_description_01 {
-	top: 483px;
+	top: 482px;
 }
 #tis_improvements_cost_02,
 #tis_improvements_name_02,
 #tis_improvements_description_02 {
-	top: 509px;
+	top: 508px;
 }
 #tis_improvements_cost_03,
 #tis_improvements_name_03,
 #tis_improvements_description_03 {
-	top: 534px;
+	top: 532px;
 }
 #tis_improvements_cost_04,
 #tis_improvements_name_04,
 #tis_improvements_description_04 {
-	top: 560px;
+	top: 558px;
 }
 #tis_improvements_cost_05,
 #tis_improvements_name_05,
 #tis_improvements_description_05 {
-	top: 586px;
+	top: 584px;
 }
 #tis_improvements_cost_06,
 #tis_improvements_name_06,
 #tis_improvements_description_06 {
-	top: 611px;
+	top: 610px;
 }
 #tis_improvements_cost_07,
 #tis_improvements_name_07,
 #tis_improvements_description_07 {
-	top: 637px;
+	top: 636px;
 }
 #tis_improvements_cost_08,
 #tis_improvements_name_08,
 #tis_improvements_description_08 {
-	top: 662px;
+	top: 660px;
 }
 #tis_improvements_cost_09,
 #tis_improvements_name_09,
