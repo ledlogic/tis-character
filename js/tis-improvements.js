@@ -58,12 +58,14 @@ tis.improvements = {
 		if (addImprovement) {
 			tis.improvements.points -= improvement.IP;
 			tis.improvements.selected.push(improvement);
-			tis.improvements.render();
 		}
 		
 		if (tis.improvements.points > 0 && tis.improvements.selected.length < 10) {
 			setTimeout(tis.improvements.randomize, 10);
-		}
+		} else {
+			tis.improvements.sort();
+			tis.improvements.render();
+		}		
 	},
 	hasImprovement: function(improvement) {
 		var ret = false;
@@ -90,6 +92,11 @@ tis.improvements = {
 			$("#tis_improvements_name_" + key).val(improvement.Name);
 			$("#tis_improvements_description_" + key).val(improvement.Description);
 			$("#tis_improvement_points").val(tis.improvements.points);
+		});
+	},
+	sort: function() {
+		tis.improvements.selected = _.sortBy(tis.improvements.selected, function(improvement) {
+			return improvement.Name;
 		});
 	}
 };
