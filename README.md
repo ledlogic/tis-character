@@ -2,8 +2,8 @@
 Teens in Space random character generator
 
 # Add ins
-
-* Jquery
+* [Donjon sci fi names](https://donjon.bin.sh/scifi/name/#type=sx)
+* [Jquery](https://code.jquery.com/)
 * [Bootstrap icons](https://icons.getbootstrap.com/)
 * [Papaparse](https://www.papaparse.com/)
-* [Donjon sci fi names](https://donjon.bin.sh/scifi/name/#type=sx)
+* [Underscore](https://underscorejs.org/)

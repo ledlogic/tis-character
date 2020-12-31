@@ -38,7 +38,11 @@ tis.fatalflaws = {
 	randomize: function() {
 		var list = tis.fatalflaws.list;
 		var index = tis.math.dieZ(list.length);
+		//tis.log("index[" + index + "]");
+		
 		var fatalflaw = list[index];
+		//tis.log(["fatalflaw",fatalflaw]);
+		
 		tis.fatalflaws.set(fatalflaw);
 	},
 	set: function(d) {
