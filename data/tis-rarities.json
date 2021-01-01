@@ -1,0 +1,32 @@
+[
+	{
+		"Name": "One of a kind",
+		"Abbr": "OOAK",
+		"Rmin": 500,
+		"Rmax": 2500
+	},
+	{
+		"Name": "Extremely Rare",
+		"Abbr": "ER",
+		"Rmin": 100,
+		"Rmax": 500
+	},
+	{
+		"Name": "Hard to Find",
+		"Abbr": "HTF",
+		"Rmin": 50,
+		"Rmax": 100
+	},
+	{
+		"Name": "Less Common",
+		"Abbr": "LC",
+		"Rmin": 10,
+		"Rmax": 50
+	},
+	{
+		"Name": "Common",
+		"Abbr": "C",
+		"Rmin": 1,
+		"Rmax": 10
+	}
+]
