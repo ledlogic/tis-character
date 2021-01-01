@@ -25,5 +25,6 @@ var tis = {
 		tis.fatalflaws.init();
 		tis.improvements.init();
 		tis.adversity.init();
+		tis.equipment.init();
 	}
 };

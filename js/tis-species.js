@@ -2,6 +2,7 @@
 
 tis.species = {
 	list:[],
+	ready: false,
 	selected: null,
 	init: function() {
 		tis.log("tis.species.init");
@@ -24,6 +25,7 @@ tis.species = {
 		tis.log("tis.species.response");
 		tis.species.list = data;
 		tis.log(["tis.species.list", tis.species.list]);
+		tis.species.ready = true;
 		setTimeout(tis.species.callback, 10);
 	},
 	randomize: function() {
