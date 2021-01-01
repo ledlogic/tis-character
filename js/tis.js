@@ -19,11 +19,15 @@ var tis = {
 		tis.names.init();
 		// stats < species
 		tis.stats.init(); 
+		// species < tropes
 		tis.species.init();
-		// tropes > species
 		tis.tropes.init();
 		tis.fatalflaws.init();
 		tis.improvements.init();
 		tis.adversity.init();
+		// rarities < equipment
+		tis.rarities.init();
+		tis.qualities.init();
+		tis.equipment.init();
 	}
 };

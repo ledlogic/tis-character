@@ -2,8 +2,9 @@
 
 tis.improvements = {
 	list: [],
-	selected: [],
 	points: 10,
+	ready: false,
+	selected: [],
 	init: function() {
 		tis.log("tis.improvements.init");
 		tis.improvements.set();
@@ -39,14 +40,15 @@ tis.improvements = {
 			var datum = data[i];
 			//tis.log(["datum", datum]);
 			list[list.length++] = datum;
-		}	
+		}
+		tis.improvements.ready = true;
 		//tis.log(["list", list]);
 		setTimeout(tis.improvements.callback, 10);
 	},
 	randomSpeciesSuggestedImprovement: function() {
 		var improvement = null;
-		var list = tis.species.selected.Improvements;
-		if (list.length) {
+		var list = tis.species.selected ? tis.species.selected.Improvements : null;
+		if (list && list.length) {
 			var index = tis.math.dieZ(list.length);
 			var name = list[index];
 			improvement = tis.improvements.findByName(name);
@@ -56,7 +58,7 @@ tis.improvements = {
 			var addImprovement = (tis.improvements.points >= improvement.IP)
 				&& !tis.improvements.hasImprovement(improvement)
 				&& tis.improvements.hasRequirement(improvement.Requirement)
-			;	
+			;
 		}
 		if (!addImprovement) {
 			improvement = null;
@@ -78,6 +80,10 @@ tis.improvements = {
 	},
 	randomize: function() {
 		tis.log("tis.improvements.randomize");
+		if (!tis.improvements.ready || !tis.species.ready || !tis.species.selected) {
+			setTimeout(tis.improvements.randomize, 100);
+			return;
+		}
 		
 		// select a random improvement from the selected species' suggested improvements list
 		var improvement = tis.improvements.randomSpeciesSuggestedImprovement();
@@ -118,7 +124,7 @@ tis.improvements = {
 	},
 	render: function() {
 		_.each(tis.improvements.selected, function(improvement, index) {
-			var key = (index < 10 ? "0" : "") + index;
+			var key = (index < 10 ? "0" : "") + (index + 1);
 			$("#tis_improvements_cost_" + key).val(improvement.IP);
 			$("#tis_improvements_name_" + key).html(improvement.Name);
 			$("#tis_improvements_description_" + key).html(improvement.Description);

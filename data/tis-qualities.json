@@ -1,0 +1,32 @@
+[
+	{
+		"Name": "The Highest Quality",
+		"Abbr": "HQ",
+		"Rmin": 500,
+		"Rmax": 2000
+	},
+	{
+		"Name": "High Quality",
+		"Abbr": "HQ",
+		"Rmin": 100,
+		"Rmax": 500
+	},
+	{
+		"Name": "Good Quality",
+		"Abbr": "GQ",
+		"Rmin": 50,
+		"Rmax": 100
+	},
+	{
+		"Name": "Average Quality",
+		"Abbr": "AQ",
+		"Rmin": 10,
+		"Rmax": 50
+	},
+	{
+		"Name": "Low Quality",
+		"Abbr": "LQ",
+		"Rmin": 1,
+		"Rmax": 10
+	}
+]

@@ -1,0 +1,34 @@
+[
+	{
+		"Type": "Kit",
+		"Examples": ["Med", "Science", "Forgery", "Slicer", "Survival"]
+	},
+	{
+		"Type": "Tools",
+		"Examples": ["Ship Repair", "Weapon Repair", "Cybernetics"]
+	},
+	{
+		"Type": "Gadget",
+		"Examples": ["Toys", "Video Games", "Fidget Spinners", "Space-Pogs", "Hoverboard"]
+	},
+	{
+		"Type": "Container",
+		"Examples": ["Backpack", "Hip-Bag", "Spacer’s Duffel", "Military Pack", "Holster"]
+	},
+	{
+		"Type": "Weapon",
+		"Examples": ["Blaster", "Plasma Rifle", "Laserblade", "Grenade Launcher"]
+	},
+	{
+		"Type": "Explosive",
+		"Examples": ["Frag Grenade", "Ion Grenade", "Thermite", "Smoke Bomb", "Stink Bomb"]
+	},
+	{
+		"Type": "Armor",
+		"Examples": ["Blast Vest", "Light Armor", "Heavy Space Armor", "Laser Shield"]
+	},
+	{
+		"Type": "Specialty",
+		"Examples": ["Scanner", "Stealth Suit", "Space Suit", "Smuggler Vest", "Decryptor"]
+	}
+]
