@@ -27,6 +27,7 @@ var tis = {
 		tis.adversity.init();
 		// rarities < equipment
 		tis.rarities.init();
+		tis.qualities.init();
 		tis.equipment.init();
 	}
 };

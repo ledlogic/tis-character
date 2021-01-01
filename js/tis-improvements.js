@@ -81,7 +81,7 @@ tis.improvements = {
 	randomize: function() {
 		tis.log("tis.improvements.randomize");
 		if (!tis.improvements.ready || !tis.species.ready || !tis.species.selected) {
-			setTimeout(tis.improvements.randomize, 10);
+			setTimeout(tis.improvements.randomize, 100);
 			return;
 		}
 		

@@ -37,10 +37,12 @@ tis.equipment = {
 		var index2 = tis.math.dieZ(examples.length);
 		var equipmentName = examples[index2];
 		var equipmentRarity = tis.rarities.randomRarity();
+		var equipmentQuality = tis.qualities.randomQuality();
 		var equipment = {
 			Type: equipmentType,
 			Name: equipmentName,
-			Rarity: equipmentRarity
+			Rarity: equipmentRarity,
+			Quality: equipmentQuality
 		}
 		var addEquipment = !tis.equipment.hasEquipment(equipment);
 		if (!addEquipment) {
@@ -50,8 +52,8 @@ tis.equipment = {
 	},
 	randomize: function() {
 		tis.log("tis.equipment.randomize");
-		if (!tis.equipment.ready || !tis.rarities.ready) {
-			setTimeout(tis.equipment.randomize, 10);
+		if (!tis.equipment.ready || !tis.rarities.ready || !tis.qualities.ready) {
+			setTimeout(tis.equipment.randomize, 100);
 			return;
 		}
 		
@@ -78,7 +80,7 @@ tis.equipment = {
 	render: function() {
 		_.each(tis.equipment.selected, function(equipment, index) {
 			var key = (index < 9 ? "0" : "") + (index + 1);
-			var h = equipment.Type + ": " + equipment.Name + " (" + equipment.Rarity.Abbr + ")";
+			var h = equipment.Type + ": " + equipment.Name + " (" + equipment.Rarity.Abbr + "/" + equipment.Quality.Abbr + ")";
 			$("#tis_backpack_" + key).val(h);
 		});
 	},
