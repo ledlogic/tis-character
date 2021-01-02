@@ -66,6 +66,7 @@ tis.character = {
 	},
 	importCharacter: function(character) {
 		$("#tis_name").val(character.name);
+		$("#tis_age").val(character.age);
 		$("#tis_gender").val(character.gender);
 		$("#tis_species_name").val(character.species);
 		$("#tis_species_drawback").val(character.drawback);
