@@ -29,5 +29,6 @@ tis.random = {
 		$("#tis_save").on("click", function() {
 			tis.localstorage.saveCharacter();
 		});
+		tis.improvements.randomize();
 	}
 };

@@ -7,10 +7,10 @@ tis.init = function() {
 		html.push("<table border=\"1\" width=\"100%\"><theader><tr>"
 			+ "<th>Load</th>"
 			+ "<th>Delete</th>"
+		 	+ "<th>Character Name</th>"
 		 	+ "<th>Species</th>"
 		 	+ "<th>Trope</th>"
-		 	+ "<th>Name</th>"
-		 	+ "<th>Date</th>"
+		 	+ "<th>Date Saved</th>"
 		 	+ "</tr></theader><tbody>"
 		);
 	
@@ -28,9 +28,9 @@ tis.init = function() {
 				 	+ "<td align=\"center\">"
 				 	+ "<img class=\"tis-index-icon tis-delete\" data-timekey=\"" + timekey + "\" src=\"img/bootstrap/person-dash.svg\" alt=\"Delete\" title=\"Delete\" />"
 				 	+ "</td>"
+				 	+ "<td>" + character.name + "</td>"
 				 	+ "<td>" + character.species + "</td>"
 				 	+ "<td>" + character.trope + "</td>"
-				 	+ "<td>" + character.name + "</td>"
 				 	+ "<td>" + tis.localstorage.timekeyToDate(timekey) + "</td>"
 				);
 			} else {
@@ -45,6 +45,7 @@ tis.init = function() {
 		
 		$(".tis-load").on("click", function() {
 			var timekey = $(this).data("timekey");
+			window.location = "tis-load.html?timekey=" + encodeURIComponent(timekey);
 		});
 
 		$(".tis-delete").on("click", function() {

@@ -9,7 +9,6 @@ tis.improvements = {
 		tis.log("tis.improvements.init");
 		tis.improvements.set();
 		tis.improvements.request();
-		tis.improvements.callback = tis.improvements.randomize;
 	},
 	set: function(val) {
 		if (val) {
@@ -43,7 +42,7 @@ tis.improvements = {
 		}
 		tis.improvements.ready = true;
 		//tis.log(["list", list]);
-		setTimeout(tis.improvements.callback, 10);
+		//setTimeout(tis.improvements.callback, 10);
 	},
 	randomSpeciesSuggestedImprovement: function() {
 		var improvement = null;
