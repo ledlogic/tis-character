@@ -94,12 +94,17 @@ tis.improvements = {
 		}		
 		
 		if (improvement) {
+			tis.log("tis.improvement found.....................");
+			tis.log(["tis.improvement.Name,", improvement.Name]);
+			tis.log(["tis.improvement.IP,", improvement.IP]);
+			tis.log(["tis.improvements.points,", tis.improvements.points]);		
+			tis.log(["tis.improvements.selected.length,", tis.improvements.selected.length]);		
 			tis.improvements.points -= improvement.IP;
 			tis.improvements.selected.push(improvement);
 		}
 		
 		if (tis.improvements.points > 0 && tis.improvements.selected.length < 10) {
-			setTimeout(tis.improvements.randomize, 10);
+			setTimeout(tis.improvements.randomize, 100);
 		} else {
 			tis.improvements.sort();
 			tis.improvements.render();
@@ -124,12 +129,12 @@ tis.improvements = {
 	},
 	render: function() {
 		_.each(tis.improvements.selected, function(improvement, index) {
-			var key = (index < 10 ? "0" : "") + (index + 1);
+			var key = (index < 9 ? "0" : "") + (index+1);
 			$("#tis_improvements_cost_" + key).val(improvement.IP);
 			$("#tis_improvements_name_" + key).html(improvement.Name);
 			$("#tis_improvements_description_" + key).html(improvement.Description);
-			$("#tis_improvement_points").val(tis.improvements.points);
 		});
+		$("#tis_improvement_points").val(tis.improvements.points);
 	},
 	sort: function() {
 		tis.improvements.selected = _.sortBy(tis.improvements.selected, function(improvement) {
