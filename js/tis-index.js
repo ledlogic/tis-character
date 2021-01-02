@@ -32,7 +32,6 @@ tis.init = function() {
 				 	+ "<td>" + character.trope + "</td>"
 				 	+ "<td>" + character.name + "</td>"
 				 	+ "<td>" + tis.localstorage.timekeyToDate(timekey) + "</td>"
-				 	+ "</tr>"
 				);
 			} else {
 				tis.log("Could not find item, timekey[" + timekey + "]");
@@ -43,5 +42,15 @@ tis.init = function() {
 			html.push("</tbody></table>");
 		}	
 		$(".tis-saved-characters").html(html.join("\n"));
+		
+		$(".tis-load").on("click", function() {
+			var timekey = $(this).data("timekey");
+		});
+
+		$(".tis-delete").on("click", function() {
+			var timekey = $(this).data("timekey");
+			tis.localstorage.deleteCharacter(timekey);
+			tis.init();
+		});
 	}
 };

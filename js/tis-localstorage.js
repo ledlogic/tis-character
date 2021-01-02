@@ -73,5 +73,15 @@ tis.localstorage = {
 		var ms = parseInt(timekey.split("-")[2], 10);
 		var d = new Date(ms);
 		return d;
-	}
+	},
+	deleteCharacter: function(timekey) {
+		var characters = tis.localstorage.getCharacters();
+		var index = _.indexOf(characters, timekey);
+		if (index > -1) {
+			characters.splice(index, 1);
+		}
+		var json = JSON.stringify(characters);
+		localStorage.setItem("tis-characters", json);
+		localStorage.removeItem(timekey);		
+	}	
 };
