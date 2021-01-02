@@ -23,6 +23,12 @@ footer {
 footer a {
 	font-style: italic;
 }
+.tis-index-action {
+	margin: 20px 0;
+}
+.tis-index-action table {
+	margin: 20px 0;
+}
 .tis-index-icon {
 	height: 10px;
 }
