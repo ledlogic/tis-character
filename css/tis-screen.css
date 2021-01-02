@@ -23,6 +23,9 @@ footer {
 footer a {
 	font-style: italic;
 }
+.tis-index-icon {
+	height: 10px;
+}
 .tis-bg {
 	width: 800px;
 }
@@ -42,6 +45,9 @@ footer a {
 	text-align: center;
 	width: 154px;
 }
+.tis-actions a {
+	font-weight: 600;
+}
 #tis_name {
 	color: #D32226;
 	font-size: 22px;
@@ -54,6 +60,14 @@ footer a {
 }
 #tis_gender_repeat {
 	left: 410px;
+	top: 80px;
+}
+#tis_list {
+	left: 70px;
+	top: 80px;
+}
+#tis_save {
+	left: 430px;
 	top: 80px;
 }
 #tis_age {

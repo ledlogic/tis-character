@@ -16,125 +16,17 @@
   <body>
   
 	<main class="container">
-		<!--  bg -->
-		<img class="tis-bg" src="img/char.png" />
-		
-		<!--  top-left -->
-		<input class="tis-field" id="tis_name" placeholder="Enter a name" />
-		<input class="tis-field" id="tis_age" />
-		<select class="tis-field" id="tis_gender">
-			<option value="">Choose...</option>
-			<option value="alien">Alien</option>
-			<option value="female">Female</option>
-			<option value="male">Male</option>
-		</select>
-		<img class="tis_icon" id="tis_gender_repeat" src="img/bootstrap/arrow-repeat.svg" alt="Repeat" title="Repeat">
-		<input class="tis-field" id="tis_species_name" />
-		<input class="tis-field" id="tis_species_drawback" />
-		<input class="tis-field" id="tis_trope" />
-		<input class="tis-field" id="tis_fatalflaw" />
-		<img class="tis_icon" id="tis_fatalflaw_repeat" src="img/bootstrap/arrow-repeat.svg" alt="Repeat" title="Repeat">
-		<span  class="tis-field" id="tis_species_description"></span>
-		<input class="tis-field" id="tis_credits" />
-		
-		<!--  stats -->
-		<input class="tis-stat" id="tis_fight" />
-		<input class="tis-stat" id="tis_brains" />
-		<input class="tis-stat" id="tis_charm" />
-		<input class="tis-stat" id="tis_flight" />
-		<input class="tis-stat" id="tis_brawn" />
-		<input class="tis-stat" id="tis_grit" />
-		
-		<!--  stat mods -->
-		<input class="tis-stat-mod" id="tis_fight_mod" />
-		<input class="tis-stat-mod" id="tis_brains_mod" />
-		<input class="tis-stat-mod" id="tis_charm_mod" />
-		<input class="tis-stat-mod" id="tis_flight_mod" />
-		<input class="tis-stat-mod" id="tis_brawn_mod" />
-		<input class="tis-stat-mod" id="tis_grit_mod" />
-				
-		<!-- right -->
-		<input class="tis-stat" id="tis_improvement_points" />
-		<input class="tis-stat" id="tis_adversity_tokens" />
-		
-		<!-- improvements -->
-		<input class="tis-improvements-cost" id="tis_improvements_cost_01" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_02" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_03" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_04" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_05" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_06" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_07" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_08" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_09" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_10" />
-		<input class="tis-improvements-cost" id="tis_improvements_cost_11" />
-		
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_01"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_02"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_03"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_04"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_05"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_06"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_07"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_08"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_09"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_10"></div>
-		<div contenteditable="true" class="tis-improvements-name" id="tis_improvements_name_11"></div>
-		
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_01"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_02"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_03"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_04"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_05"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_06"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_07"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_08"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_09"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_10"></div>
-		<div contenteditable="true" class="tis-improvements-description" id="tis_improvements_description_11"></div>
-		
-		<!-- roles -->
-		<input class="tis-ship-roles" id="tis_ship_roles_01" />
-		<input class="tis-ship-roles" id="tis_ship_roles_02" />
-		<input class="tis-ship-roles" id="tis_ship_roles_03" />
-		<input class="tis-ship-roles" id="tis_ship_roles_04" />
-		<input class="tis-ship-roles" id="tis_ship_roles_05" />
-		<input class="tis-ship-roles" id="tis_ship_roles_06" />
-		<input class="tis-ship-roles" id="tis_ship_roles_07" />
-		<input class="tis-ship-roles" id="tis_ship_roles_08" />
-		<input class="tis-ship-roles" id="tis_ship_roles_09" />
-		<input class="tis-ship-roles" id="tis_ship_roles_10" />
-		<input class="tis-ship-roles" id="tis_ship_roles_11" />
-	
-		<!-- records -->
-		<input class="tis-records" id="tis_records_01" />
-		<input class="tis-records" id="tis_records_02" />
-		<input class="tis-records" id="tis_records_03" />
-		<input class="tis-records" id="tis_records_04" />
-		<input class="tis-records" id="tis_records_05" />
-		<input class="tis-records" id="tis_records_06" />
-		<input class="tis-records" id="tis_records_07" />
-		<input class="tis-records" id="tis_records_08" />
-		<input class="tis-records" id="tis_records_09" />
-		<input class="tis-records" id="tis_records_10" />
-		<input class="tis-records" id="tis_records_11" />
-		<input class="tis-records" id="tis_records_12" />
-	
-		<!-- backpack -->
-		<input class="tis-backpack" id="tis_backpack_01" />
-		<input class="tis-backpack" id="tis_backpack_02" />
-		<input class="tis-backpack" id="tis_backpack_03" />
-		<input class="tis-backpack" id="tis_backpack_04" />
-		<input class="tis-backpack" id="tis_backpack_05" />
-		<input class="tis-backpack" id="tis_backpack_06" />
-		<input class="tis-backpack" id="tis_backpack_07" />
-		<input class="tis-backpack" id="tis_backpack_08" />
-		<input class="tis-backpack" id="tis_backpack_09" />
-		<input class="tis-backpack" id="tis_backpack_10" />
-		<input class="tis-backpack" id="tis_backpack_11" />
-		<input class="tis-backpack" id="tis_backpack_12" />
-		
+		<h1>Teens in Space - Character Sheets</h1>
+		<p>
+			<img class="tis-index-icon" src="img/bootstrap/gear.svg" alt="Generate" title="Generate" /> <a href="tis-random.html">Generate</a> a random character.
+			You can save these to localstorage.
+		</p>
+		<p>
+			<a>Load</a> a saved character (from localstorage).
+			<div class="tis-saved-characters">
+			<p>No saved characters</p>
+			</div>
+		</p>
 	</main>
 	
 	<footer>
@@ -153,6 +45,7 @@
 	<script src="js/tis-fatalflaws.js"></script>
 	<script src="js/tis-gender.js"></script>
 	<script src="js/tis-improvements.js"></script>
+	<script src="js/tis-localstorage.js"></script>
 	<script src="js/tis-math.js"></script>
 	<script src="js/tis-names.js"></script>
 	<script src="js/tis-qualities.js"></script>
@@ -161,5 +54,6 @@
 	<script src="js/tis-stats.js"></script>
 	<script src="js/tis-tropes.js"></script>
 
+	<script src="js/tis-index.js"></script>
   </body>
 </html>
