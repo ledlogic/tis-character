@@ -1,4 +1,6 @@
 tis.init = function() {
+	$(".tis-saved-characters").html("<p>No saved characters</p>");
+	
 	tis.characters = tis.localstorage.getCharacters();
 	tis.log(["tis.characters", tis.characters]);
 
@@ -50,7 +52,10 @@ tis.init = function() {
 
 		$(".tis-delete").on("click", function() {
 			var timekey = $(this).data("timekey");
-			tis.localstorage.deleteCharacter(timekey);
+			var character = tis.localstorage.deleteCharacter(timekey);
+			
+			alert("Deleted " + character.name);
+			
 			tis.init();
 		});
 	}

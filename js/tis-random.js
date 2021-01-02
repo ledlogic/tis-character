@@ -2,6 +2,7 @@ tis.init = function() {
 	tis.log(".................................");
 	tis.log("tis.init");
 	tis.age.init();
+	tis.character.init();
 	tis.credits.init();
 	tis.gender.init();
 	tis.names.init();
@@ -23,12 +24,6 @@ tis.init = function() {
 
 tis.random = {
 	init: function() {
-		$("#tis_list").on("click", function() {
-			window.location = "index.html";
-		});
-		$("#tis_save").on("click", function() {
-			tis.localstorage.saveCharacter();
-		});
 		tis.improvements.randomize();
 	}
 };
