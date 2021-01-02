@@ -402,3 +402,7 @@ footer a {
 #tis_backpack_12 {
 	top: 1055px;
 }
+
+.dataTables_filter {
+	margin-bottom: 10px;
+}
