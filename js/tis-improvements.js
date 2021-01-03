@@ -2,6 +2,7 @@
 
 tis.improvements = {
 	list: [],
+	max: 9,
 	points: 10,
 	ready: false,
 	selected: [],
@@ -102,7 +103,7 @@ tis.improvements = {
 			tis.improvements.selected.push(improvement);
 		}
 		
-		if (tis.improvements.points > 0 && tis.improvements.selected.length < 10) {
+		if (tis.improvements.points > 0 && tis.improvements.selected.length < tis.improvements.max) {
 			setTimeout(tis.improvements.randomize, 100);
 		} else {
 			tis.improvements.sort();

@@ -222,70 +222,65 @@ footer a {
 	/* border: 1px solid red; */
 	border: 1px solid transparent;
 	color: #000;
-	font-size: 8px;
+	font-size: 12px;
 	height: 20px;
-	left: 166px;
+	left: 202px;
 	padding: 0px 4px;
 	position: absolute;
 	text-align: left;
-	width: 72px;
+	width: 150px;
 }
 .tis-improvements-description {
 	/* border: 1px solid red; */
 	border: 1px solid transparent;
 	color: #000;
-	font-size: 6px;
+	font-size: 8px;
 	height: 20px;
-	left: 258px;
+	left: 376px;
 	padding: 0px 4px;
 	position: absolute;
 	text-align: left;
-	width: 160px;	
+	width: 322px;	
 }
 #tis_improvements_cost_01,
 #tis_improvements_name_01,
 #tis_improvements_description_01 {
-	top: 482px;
+	top: 484px;
 }
 #tis_improvements_cost_02,
 #tis_improvements_name_02,
 #tis_improvements_description_02 {
-	top: 508px;
+	top: 510px;
 }
 #tis_improvements_cost_03,
 #tis_improvements_name_03,
 #tis_improvements_description_03 {
-	top: 534px;
+	top: 538px;
 }
 #tis_improvements_cost_04,
 #tis_improvements_name_04,
 #tis_improvements_description_04 {
-	top: 560px;
+	top: 566px;
 }
 #tis_improvements_cost_05,
 #tis_improvements_name_05,
 #tis_improvements_description_05 {
-	top: 584px;
+	top: 594px;
 }
 #tis_improvements_cost_06,
 #tis_improvements_name_06,
 #tis_improvements_description_06 {
-	top: 610px;
+	top: 622px;
 }
 #tis_improvements_cost_07,
 #tis_improvements_name_07,
 #tis_improvements_description_07 {
-	top: 636px;
+	top: 650px;
 }
 #tis_improvements_cost_08,
 #tis_improvements_name_08,
 #tis_improvements_description_08 {
-	top: 662px;
-}
-#tis_improvements_cost_09,
-#tis_improvements_name_09,
-#tis_improvements_description_09 {
-	top: 688px;
+	top: 678px;
 }
 .tis-ship-roles {
 	/* border: 1px solid orange; */
