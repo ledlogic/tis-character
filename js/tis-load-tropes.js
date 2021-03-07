@@ -26,7 +26,7 @@ tis.tropes.render = function() {
 	h.push("<th>Initial row</th>");
 	h.push("<th>Trope</th>");
 	for (var i=0; i<tis.stats.levels.length; i++) {
-		h.push("<th>" + tis.stats.levels[i] + "</th>");
+		h.push("<th>d" + tis.stats.levels[i] + "</th>");
 	}
 	h.push("</tr>");
 	h.push("</thead>");
@@ -53,7 +53,7 @@ tis.tropes.render = function() {
 		var s = t.Stats.split(" ");
 		h.push("<tr>");
 		h.push("<td>" + (tis.tropes.list.length + i+1) + "</td>");
-		h.push("<td><input class=\"new-trope-name\" id=\"name-" + i + "\" value=\"\" size=\"14\" data=\"\"/></td>");
+		h.push("<td><input class=\"new-trope-name\" id=\"name-" + i + "\" value=\"\" size=\"14\" data-stats=\"" + t.Stats + "\"/></td>");
 		for (var j=0; j<s.length; j++) {
 			h.push("<td>" + s[j] + "</td>");
 		}
@@ -129,12 +129,13 @@ tis.tropes.publish = function() {
 	tis.log("tis.tropes.publish");
 	var newstats = [];
 	$(".new-trope-name").each(function f(i) {
-		var t = tis.newtropes[i];
 		var n = $(this).val();
 		if (n) {
-			var s = t.Stats;
-			newstats.push("\"" + n + "\",\"" + t.Stats + "\"");
+			var s = $(this).data("stats");
+			newstats.push("\"" + n + "\",\"" + s + "\"");
 		}	
 	});
-	console.log(newstats.join("\n"));
+	if (newstats.length) {
+		$("#new-tropes-data").html(newstats.join("<br/>")).fadeIn();
+	}
 }

@@ -401,7 +401,16 @@ footer a {
 .dataTables_filter {
 	margin-bottom: 10px;
 }
+#tropes-data table th {
+	text-transform: uppercase;
+}
 #tropes-data table th, 
 #tropes-data table td {
+	border-bottom: 1px solid #e2e2e2;
 	font-size: 12px;
+}
+#new-tropes-data {
+	border: 1px solid #ccc;
+	display: none;
+	padding: 1em;
 }
