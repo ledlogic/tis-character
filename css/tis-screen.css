@@ -401,3 +401,7 @@ footer a {
 .dataTables_filter {
 	margin-bottom: 10px;
 }
+#tropes-data table th, 
+#tropes-data table td {
+	font-size: 12px;
+}
