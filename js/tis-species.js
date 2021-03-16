@@ -56,7 +56,7 @@ tis.species = {
 		// gender		
 		var gender = "";
 		switch (d.Name) {
-			case "Humans":
+			case "Human":
 			  var index = tis.math.dieZ(2);
 			  if (index == 1) {
 			  	gender = "female";

@@ -16,6 +16,16 @@ tis.load = {
 				
 		var url = purl();
 		var timekey = url.param('timekey');
-		tis.localstorage.loadCharacter(timekey);
+		if (timekey) {
+			tis.localstorage.loadCharacter(timekey);
+			return;
+		}
+
+		var f = url.param('f');
+		var fn = url.param('fn');
+		if (f && fn) {
+			tis.filestorage.loadCharacter(f, fn);
+			return;
+		}
 	}
 };

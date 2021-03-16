@@ -28,7 +28,7 @@ tis.index = {
 					var character = JSON.parse(characterItem);
 					tis.log(["character", character]);
 
-					var date = tis.localstorage.timekeyToDate(timekey);
+					var date = tis.timekey.timekeyToDate(timekey);
 					var dateStr = date.toLocaleString();
 				
 					html.push("<tr>"

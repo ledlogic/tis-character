@@ -1,6 +1,6 @@
 [
 	{
-		"Name": "Abysseans",
+		"Name": "Abyssean",
 		"Description": "Water-breathing humanoids who explore space in exoskeletons.",
 		"Drawback": "Must remain in water",
 		"Bonuses": [],
@@ -8,7 +8,7 @@
 		"Improvements": ["Cyberware Hacker", "Gross", "Skywalker", "Space Athlete", "Treasure Hunter"]
 	},
 	{
-		"Name": "Ananos",
+		"Name": "Anano",
 		"Description": "Bulky, mole-like creatures tantalized by the treasures found below-ground.",
 		"Drawback": "-3 to Acrobatics",
 		"Bonuses": [],
@@ -24,7 +24,7 @@
 		"Improvements": ["Intuitive", "Nerves of Steel", "Regeneration", "Skywalker", "Stealthy"]
 	},
 	{
-		"Name": "Calceans",
+		"Name": "Calcean",
 		"Description": "Mechanical recreations of an extinct species.",
 		"Drawback": "-1 to Fight",
 		"Bonuses": [
@@ -37,7 +37,7 @@
 		"Improvements": ["Cyberware Hacker", "High Flier", "Intergalactically Beloved", "Goody Two-Shoes", "Nerves of Steel", "Protector", "Utility Belt"]
 	},
 	{
-		"Name": "Cephalons",
+		"Name": "Cephalon",
 		"Description": "Gelatinous, tentacled beings that share a symbiotic relationship with their host bodies.",
 		"Drawback": "Considered criminals",
 		"Bonuses": [],
@@ -53,7 +53,7 @@
 		"Improvements": ["High Flier", "Hot Shot Pilot", "Intergalactically Beloved", "Interspecies Allure", "Intuitive", "Overachiever"]
 	},
 	{
-		"Name": "Cimexeans",
+		"Name": "Cimexean",
 		"Description": "Insect-like humanoids who share a hive mind.",
 		"Drawback": "Honor Hiveleader commands",
 		"Bonuses": [],
@@ -61,7 +61,7 @@
 		"Improvements": ["Hot Shot Pilot", "Blaster Master", "Escape Artist", "High Flier", "Nerves of Steel", "Protector", "Scanner", "Tough"]
 	},
 	{
-		"Name": "Cumulusareans",
+		"Name": "Cumulusarean",
 		"Description": "A friendly, cloud-like species of artists.",
 		"Drawback": "Heat-based attacks +3 bonus",
 		"Bonuses": [],
@@ -69,7 +69,7 @@
 		"Improvements": ["High Flier", "Intergalactically Beloved", "Regeneration", "Skywalker", "Stealthy"]		
 	},
 	{
-		"Name": "Espereans",
+		"Name": "Esperean",
 		"Description": "Psionics advocating for intergalactic peace.",
 		"Drawback": "-1 to Fight and Grit",
 		"Bonuses": [
@@ -86,7 +86,7 @@
 		"Improvements": ["Escape Artist", "Hive Mind 1", "Hive Mind 2", "Goody Two-Shoes", "Nerves of Steel", "Saboteur", "Scanner"]
 	},
 	{
-		"Name": "Frigoreans",
+		"Name": "Frigorean",
 		"Description": "Resurrected humanoids who value equality.",
 		"Drawback": "Must rejuvenate once per year",
 		"Bonuses": [],
@@ -94,7 +94,7 @@
 		"Improvements": ["Goody Two-Shoes", "Gross", "Intuitive", "Hive Mind 1", "Hive Mind 2", "Nerves of Steel"]
 	},
 	{
-		"Name": "Herbaceans",
+		"Name": "Herbacean",
 		"Description": "Sentient plants who rarely leave their collectives.",
 		"Drawback": "-1 to Flight",
 		"Bonuses": [
@@ -107,7 +107,7 @@
 		"Improvements": ["Hive Mind 1", "Hive Mind 2", "Intuitive", "Loyal Crewmember", "Lucky", "Protector", "Tough"]
 	},
 	{
-		"Name": "Humans",
+		"Name": "Human",
 		"Description": "The restless explorers of the cosmos.",
 		"Drawback": "Restless",
 		"Bonuses": [],
@@ -115,23 +115,23 @@
 		"Improvements": ["Hot Shot Pilot", "Blaster Master", "Trouble Maker", "Resistance Fighter", "Saboteur", "Treasure Hunter", "Utility Belt"]
 	},
 	{
-		"Name": "Informeans",
-		"Description": "Gelatinous spheres who poop fuel and are super nice to everyone.",
+		"Name": "Informean",
+		"Description": "Gelatinous sphere who poops fuel and are super nice to everyone.",
 		"Drawback": "If not fed, will calcify",
 		"Bonuses": [],
 		"Tropes": ["Do-Gooder", "Dreamer", "Exiled Royalty", "Profiteer", "Scoundrel", "Traveling Celebrity"],
 		"Improvements": ["Escape Artist", "Gross", "Intergalactically Beloved", "Regeneration", "Stealthy"]
 	},
 	{
-		"Name": "Loricatoreans",
-		"Description": "Tiny humanoids who travel the galaxy in android exoskeletons.",
-		"Drawback": "Outside of their suit, d4 for Grit, Fight, and Flight",
+		"Name": "Loricatorean",
+		"Description": "Tiny humanoid who travels the galaxy in android exoskeletons.",
+		"Drawback": "d4 for Grit, Fight, Flight Sans Suit",
 		"Bonuses": [],
 		"Tropes": ["Engineer", "Exiled Royalty", "Explorer", "Flyboy", "Merc", "Profiteer", "Scoundrel", "Tech Wizard", "Traveling Celebrity"],
 		"Improvements": ["Cyberware Hacker", "Escape Artist", "Hot Shot Pilot", "Resistance Fighter", "Saboteur", "Scanner", "Skywalker", "Treasure Hunter", "Utility Belt"]
 	},
 	{
-		"Name": "Mystarians",
+		"Name": "Mystarian",
 		"Description": "Nomadic, all-female mystics who wield The Bind.",
 		"Drawback": "-2 to Charm",
 		"Bonuses": [
@@ -152,7 +152,7 @@
 		"Improvements": ["Blaster Master", "Cyberware Hacker", "Escape Artist", "Hot Shot Pilot", "Trouble Maker", "Saboteur", "Stealthy"]
 	},
 	{
-		"Name": "Pantheros",
+		"Name": "Pantheronian",
 		"Description": "Once worshiped as gods, now sought for their ability to create energy.",
 		"Drawback": "Fetch a high price",
 		"Bonuses": [],
@@ -160,7 +160,7 @@
 		"Improvements": []
 	},
 	{
-		"Name": "Proeleans",
+		"Name": "Proelean",
 		"Description": "Warlike humanoids who seek galactic domination.",
 		"Drawback": "Insulted: 6 Grit to avoid Fight",
 		"Bonuses": [],
@@ -181,7 +181,7 @@
 		"Improvements": ["Cyberware Hacker", "Escape Artist", "Gross", "Intuitive", "Treasure Hunter", "Trouble Maker"]
 	},
 	{
-		"Name": "Quillarians",
+		"Name": "Quillarian",
 		"Description": "Tiny bio-organic engineers, healers, and fuzzy hug monsters.",
 		"Drawback": "-2 to all Fight checks.",
 		"Bonuses": [],
@@ -205,7 +205,7 @@
 		"Improvements": ["Escape Artist", "Intuitive", "Lucky", "Stealthy", "Trouble Maker"]
 	},
 	{
-		"Name": "Skitchlings",
+		"Name": "Skitchling",
 		"Description": "Mouthless, gangly beings often hired for covert missions or their skills at dance.",
 		"Drawback": "-3 to team checks",
 		"Bonuses": [],
@@ -213,7 +213,7 @@
 		"Improvements": ["Escape Artist", "Gross", "Trouble Maker", "Stealthy"]
 	},
 	{
-		"Name": "Sollemneans",
+		"Name": "Sollemnean",
 		"Description": "Serious, emotionally-cold humanoids.",
 		"Drawback": "-1 Charm",
 		"Bonuses": [
@@ -226,7 +226,7 @@
 		"Improvements": ["Intuitive", "Goody Two-Shoes", "Nerves of Steel", "Loyal Crewmember", "Scanner", "Tough", "Utility Belt"]
 	},
 	{
-		"Name": "Squillians",
+		"Name": "Squillian",
 		"Description": "Bipedal shrimp originally bred for consumption.",
 		"Drawback": "Grit check 5 to attempt Flight",
 		"Bonuses": [],
@@ -234,7 +234,7 @@
 		"Improvements": ["Escape Artist", "Gross", "Intergalactically Beloved", "Resistance Fighter"]
 	},
 	{
-		"Name": "Therinians",
+		"Name": "Therinian",
 		"Description": "Intelligent bears who live in peaceful, rule-driven collectives.",
 		"Drawback": "-3 to use fine technology",
 		"Bonuses": [],
@@ -250,7 +250,7 @@
 		"Improvements": ["Blaster Master", "High Flier", "Nerves of Steel", "Scanner", "Tough", "Treasure Hunter", "Utility Belt"]
 	},
 	{
-		"Name": "Viscoseans",
+		"Name": "Viscosean",
 		"Description": "Symbiotic gels looking for a willing host.",
 		"Drawback": "-1 penalty to all checks",
 		"Bonuses": [

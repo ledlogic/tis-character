@@ -3,8 +3,13 @@ tis.character = {
 		$("#tis_list").on("click", function() {
 			window.location = "index.html";
 		});
-		$("#tis_save").on("click", function() {
-			var character = tis.localstorage.saveCharacter();
+		$("#tis_save").on("click", function(e) {
+			var character = null; 
+			if (e.ctrlKey) {
+				character = tis.filestorage.saveCharacter();
+			} else {
+				character = tis.localstorage.saveCharacter();
+			}
 			alert("Saved " + character.name);
 		});
 	},

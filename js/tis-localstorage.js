@@ -18,7 +18,7 @@ tis.localstorage = {
 		tis.log(["character", character]);
 		
 		// update character record
-		var timekey = tis.localstorage.getTimekey();
+		var timekey = tis.timekey.getTimekey();
 		var json = JSON.stringify(character);
 		localStorage.setItem(timekey, json);
 		
@@ -29,18 +29,6 @@ tis.localstorage = {
 		localStorage.setItem("tis-characters", json);
 		
 		return character;
-	},
-	getTimekey: function() {
-		// returns character timekey
-		var ms = (new Date()).getTime();
-		var timekey = 'tis-character-' + ms;
-		return timekey;
-	},
-	timekeyToDate: function(timekey) {
-		// translate timekey to javascript date object
-		var ms = parseInt(timekey.split("-")[2], 10);
-		var d = new Date(ms);
-		return d;
 	},
 	deleteCharacter: function(timekey) {
 		var character = tis.localstorage.getCharacter(timekey);

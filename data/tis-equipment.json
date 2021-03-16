@@ -13,7 +13,7 @@
 	},
 	{
 		"Type": "Container",
-		"Examples": ["Backpack", "Hip-Bag", "Spacer’s Duffel", "Military Pack", "Holster"]
+		"Examples": ["Backpack", "Hip-Bag", "Spacer's Duffel", "Military Pack", "Holster"]
 	},
 	{
 		"Type": "Weapon",
